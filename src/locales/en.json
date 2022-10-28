@@ -1,0 +1,9 @@
+{
+  "site": {
+    "title": "My awesome website!",
+    "description": "Here is the description of my awesome website!"
+  },
+  "home": {
+    "title": "Welcome to my awesome website!"
+  }
+}
