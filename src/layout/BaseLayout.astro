@@ -17,10 +17,8 @@ const { image, title, description, lang } = Astro.props;
       <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content flex flex-col">
         <NavBar title={title} />
-        <div class="container mx-auto lg:px-10 px-0">
-          <slot />
-          <Footer />
-        </div>
+        <slot />
+        <Footer />
       </div>
       <SideBar />
     </div>
