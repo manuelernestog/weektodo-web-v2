@@ -4,7 +4,13 @@
       <div class="text-center w-full mb-8">
         <h1 class="title-font sm:text-6xl text-4xl mb-5 font-extrabold text-gray-900 px-5">
           Free Minimalist <span class="gradient-text">Weekly Planner</span>
-          <br /> for <span class="gradient-text">Effective</span> People
+          <br /> focused on
+          <span id="typed" class="gradient-text"></span>
+          <div id="hero-alternative-text">
+            <p>Efectivennes</p>
+            <p>Simplicity</p>
+            <p>Privacy</p>
+          </div>
         </h1>
         <p class="mb-8 leading-relaxed">
           The key is not to prioritize what’s on your schedule, but to schedule your priorities.
@@ -21,22 +27,27 @@
         </div>
       </div>
     </div>
-    <img class="px-2 md:w-[75%]  object-center mx-auto relative " alt="hero" src="https://weektodo.me/assets/images/screenshot-from-2021-04-01-00-19-42-1-1206x580.png" />
+    <img
+      class="px-2 md:w-[75%] object-center mx-auto relative"
+      alt="hero"
+      src="https://weektodo.me/assets/images/screenshot-from-2021-04-01-00-19-42-1-1206x580.png"
+    />
   </section>
- 
 </div>
 
-<!-- <svg
-  class="left-full transform -translate-y-3/4 z-index-0"
-  width="500"
-  height="500"
-  fill="none"
-  ><defs
-    ><pattern id="d2a68204-c383-44b1-b99f-42ccff4e5365" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"
-      ><rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor"></rect>
-    </pattern>
-  </defs><rect width="500" height="500" fill="url(#d2a68204-c383-44b1-b99f-42ccff4e5365)"></rect>
-</svg> -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" is:inline></script>
+<script is:inline>
+  var typed = new Typed("#typed", {
+    stringsElement: "#hero-alternative-text",
+    typeSpeed: 55,
+    showCursor: true,
+    backDelay: 1000,
+    backSpeed: 15,
+    onComplete: (arrayPos, self) => {
+      document.querySelector(".typed-cursor").style.display = 'none'
+    },
+  });
+</script>
 
 <style>
   .gradient-text {
