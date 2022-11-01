@@ -18,64 +18,108 @@ changeLanguage("en");
         </p>
       </div>
 
-      <div class="overflow-x-auto m-auto lg:w-1/2 md:w-2/3">
-        <table class="table w-full">
-          <!-- head -->
-          <thead>
-            <tr>
-              <th></th>
-              <th>Payment Method</th>
-            </tr>
-          </thead>
-          <tbody>
-            <!-- row 1 -->
-            <tr>
-              <th>
-                <div class="w-10 h-10">
-                  <img src="/img/creidt-card.svg" />
-                </div>
-              </th>
-              <td>
-                <label for="underline_select" class="sr-only">Underline select</label>
-                <select
-                  id="underline_select"
-                  class="block py-2.5 px-0 w-full bg-transparent border-0 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer"
-                >
-                  <option selected>Visa / Mastercard / Maestro</option>
-                  <option value="US">5 USD</option>
-                  <option value="CA">10 USD</option>
-                  <option value="FR">15 USD</option>
-                  <option value="DE">20 USD</option>
-                  <option value="DE">25 USD</option>
-                  <option value="DE">30 USD</option>
-                  <option value="DE">50 USD</option>
-                  <option value="DE">75 USD</option>
-                  <option value="DE">100 USD</option>
-                  <option value="DE">Other</option>
-                </select>
-              </td>
-            </tr>
-            <!-- row 2 -->
-            <tr>
-              <th>
-                <div class="w-10 h-10">
-                  <img src="/img/bitcoin-btc-logo.svg" />
-                </div>
-              </th>
-              <td>Cryptocurrencies</td>
-            </tr>
-            <!-- row 3 -->
-            <tr>
-              <th>
-                <div class="w-10 h-10">
-                  <img src="/img/qvapay.svg" />
-                </div>
-              </th>
-              <td>Qvapay / MLC / CUP</td>
-            </tr>
-          </tbody>
-        </table>
+      <table class="table m-auto lg:w-1/2">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Donation Methods</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <div class="w-10 h-10">
+                <img src="/img/creidt-card.svg" />
+              </div>
+            </th>
+            <td>
+              <label for="underline_select" class="sr-only">Underline select</label>
+              <select
+                id="underline_select"
+                class="block py-2.5 px-0 w-full bg-transparent border-0 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer"
+              >
+                <option selected>Visa / Mastercard / Maestro</option>
+                <option value="US">5 USD</option>
+                <option value="CA">10 USD</option>
+                <option value="FR">15 USD</option>
+                <option value="DE">20 USD</option>
+                <option value="DE">25 USD</option>
+                <option value="DE">30 USD</option>
+                <option value="DE">50 USD</option>
+                <option value="DE">75 USD</option>
+                <option value="DE">100 USD</option>
+                <option value="DE">Other</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <div class="w-10 h-10">
+                <img src="/img/bitcoin-btc-logo.svg" />
+              </div>
+            </th>
+            <td>Cryptocurrencies</td>
+          </tr>
+          <tr>
+            <th>
+              <div class="w-10 h-10">
+                <img src="/img/qvapay.svg" />
+              </div>
+            </th>
+            <td>Qvapay / MLC / CUP</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="flex flex-col text-center w-full mb-8">
+        <h2 class="text-2xl font-bold title-font text-gray-900 my-4">Other way to support the development</h2>
       </div>
+
+      <table class="table m-auto lg:w-1/2">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Other Support Methods</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <div class="w-10 h-10">
+                <img src="/img/heart.svg" />
+              </div>
+            </th>
+            <td> Sponsor Us</td>
+          </tr>
+          <tr>
+            <th>
+              <div class="w-10 h-10">
+                <img src="/img/star-icon.svg" />
+              </div>
+            </th>
+            <td
+              >Rate Us on <a class="text-sky-900 font-bold" href="https://alternativeto.net/software/weektodo/about/"
+                >AlternativeTo
+              </a> or <a class="text-sky-900 font-bold" href="https://github.com/manuelernestog/weektodo-web">Github</a>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <div class="w-10 h-10">
+                <img src="/img/translation.svg" />
+              </div>
+            </th>
+            <td>Translate the app</td>
+          </tr>
+          <tr>
+            <th>
+              <div class="w-10 h-10">
+                <img src="/img/dev.svg" />
+              </div>
+            </th>
+            <td>Development</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </section>
 </BaseLayout>
