@@ -1,9 +1,7 @@
 ---
-
+layout: "../layout/PostLayout.astro"
+title: "Weektodo Changelog"
 ---
-
-# Weektodo Changelog
-
 ## v1.9.0
 Jul 28, 2022
 
