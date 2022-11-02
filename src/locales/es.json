@@ -1,0 +1,31 @@
+{
+  "sponsor": {
+    "diamond": "Diamante",
+    "featured_reference_in_main_website": "Referencia destacada en el sitio web principal",
+    "golden": "Dorado",
+    "medium_reference_in_main_website": "Referencia mediana en el sitio web principal",
+    "silver": "Plata",
+    "big_reference_in_main_website": "Gran referencia en el sitio web principal",
+    "bronze": "Bronce",
+    "small_reference_in_main_website": "Pequeña referencia en el sitio web principal",
+    "splash_screen_show_up_probability": "Probabilidad de aparición de la pantalla de bienvenida",
+    "sponsor": "Patrocinar",
+    "sponsor_description": "Weektodo es una aplicación gratuita y de código abierto utilizada diariamente por miles de personas eficientes en más de 90 países. \nPuedes patrocinar Weektodo contribuyendo a su desarrollo y crecimiento y al mismo tiempo aumentando la visibilidad de tu empresa o proyecto. \nEl patrocinio de Weektodo incluye una visualización de tu marca, una breve descripción y un backlink tanto desde la página web principal como desde la pantalla de bienvenida de la app cada vez que un usuario la abre.",
+    "sponsor_instructions": "Si estás interesado en apoyar a weektodo haz clic en cualquiera de los planes y rellena el formulario de patrocinio. \nEn cuanto recibamos la información nos pondremos en contacto contigo. \nNos reservamos el derecho de aceptar o rechazar el patrocinio en función de nuestros valores y el tipo de proyecto que envíe.",
+    "sponsor_weektodo": "Patrocinar WeekToDo",
+    "support_development": "Desarrollo de soporte"
+  },
+  "home": {
+    "title": "¡Bienvenido a mi increíble sitio web!"
+  },
+  "site": {
+    "description": "¡Aquí está la descripción de mi increíble sitio web!",
+    "title": "¡Mi increíble sitio web!"
+  },
+  "ui": {
+    "blog": "Blog",
+    "download": "Descargar",
+    "get_started": "Empezar",
+    "support_us": "Apoyanos"
+  }
+}

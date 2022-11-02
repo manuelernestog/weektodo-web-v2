@@ -5,5 +5,27 @@
   },
   "home": {
     "title": "Welcome to my awesome website!"
+  },
+  "sponsor": {
+    "sponsor": "Sponsor",
+    "sponsor_weektodo": "Sponsor WeekToDo",
+    "sponsor_description": "Weektodo is a free and open source application used daily by thousands of efficient people in more than 90 countries. You can sponsor Weektodo contributing to its development and growth and at the same time increasing the visibility of your company or project. Weektodo's sponsorship includes a display of your brand, a brief description and a backlink both from the main web page and the splash screen of the app every time a user open it.",
+    "bronze": "Bronze",
+    "silver": "Silver",
+    "golden": "Golden",
+    "diamond": "Diamond",
+    "small_reference_in_main_website": "Small Reference In Main Website",
+    "medium_reference_in_main_website": "Medium Reference In Main Website",
+    "big_reference_in_main_website": "Big Reference In Main Website",
+    "featured_reference_in_main_website": "Featured Reference In Main Website",
+    "splash_screen_show_up_probability": "Splash Screen Show Up Probability",
+    "support_development": "Support Development",
+    "sponsor_instructions": "If you are interested in supporting weektodo please click on any of the plans and fill out the sponsorship form. As soon as we receive the information we will contact you. We reserve the right to accept or deny sponsorship based on our values and the type of project you are submitting."
+  },
+  "ui":{
+    "get_started": "Get Started",
+    "download": "Download",
+    "support_us": "Support Us",
+    "blog": "Blog"
   }
 }

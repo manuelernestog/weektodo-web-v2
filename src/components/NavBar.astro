@@ -1,3 +1,8 @@
+---
+import { localizePath } from "astro-i18next";
+import i18next, { t } from "i18next";
+---
+
 <div
   class="w-full navbar bg-base-100 sticky top-0 z-30 flex h-16 w-full justify-center bg-opacity-90 backdrop-blur transition-all duration-100 bg-base-100 text-base-content"
 >
@@ -10,17 +15,17 @@
   </div>
   <div class="container mx-auto lg:px-16 px-0">
     <div class="flex-1">
-      <a class="btn btn-ghost normal-case text-xl text-sky-800" href="/">
+      <a class="btn btn-ghost normal-case text-xl text-sky-800" href={localizePath("/")}>
         <img src="/logo.svg" alt="WeekToDo Logo" class="h-7 mr-3" />
         Weektodo
       </a>
     </div>
     <div class="flex-0 hidden lg:block">
       <ul class="menu menu-horizontal p-0">
-        <li><a class="active:bg-sky-700" href="https://app.weektodo.me">Get Started</a></li>
-        <li><a class="active:bg-sky-700" href="/download">Download</a></li>
-        <li><a class="active:bg-sky-700" href="/blog/1">Blog</a></li>
-        <li><a class="active:bg-sky-700" href="/support-us">Support us</a></li>
+        <li><a class="active:bg-sky-700" href="https://app.weektodo.me">{t("ui.get_started")}</a></li>
+        <li><a class="active:bg-sky-700" href={localizePath("/download")}>{t("ui.download")}</a></li>
+        <li><a class="active:bg-sky-700" href="/blog/1">{t("ui.blog")}</a></li>
+        <li><a class="active:bg-sky-700" href={localizePath("/support-us")}>{t("ui.support_us")}</a></li>
       </ul>
     </div>
     <div class="flex-0">

@@ -1,12 +1,12 @@
 ---
 import { changeLanguage } from "i18next";
-import BaseLayout from "../../layout/BaseLayout.astro";
-import BlogCard from "../../components/blogCard.astro";
+import BaseLayout from "../../../layout/BaseLayout.astro";
+import BlogCard from "../../../components/blogCard.astro";
 
-changeLanguage("en");
+changeLanguage("es");
 
 export async function getStaticPaths({ paginate }) {
-    const posts = (await Astro.glob("./*.{md,mdx}")).sort((a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf());
+    const posts = (await Astro.glob("../../blog/*.{md,mdx}")).sort((a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf());
     return paginate(posts, { pageSize: 12 });
 }
 const { page } = Astro.props;
