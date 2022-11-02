@@ -1,28 +1,24 @@
 ---
-import i18next, { t, changeLanguage } from "i18next";
-import { Trans, HeadHrefLangs } from "astro-i18next/components";
+import i18next, { t } from "i18next";
 import ShareButton from "../components/ShareButton.astro";
 import BaseLayout from "../layout/BaseLayout.astro";
-
-changeLanguage("en");
 ---
 
 <BaseLayout>
   <section class="text-gray-600 body-font">
     <div class="container lg:px-16 px-5 pt-16 pb-8 mx-auto">
       <div class="flex flex-col text-center w-full mb-8">
-        <h1 class="text-4xl font-bold title-font text-gray-900 mb-3">❤️ Support WeekToDo</h1>
-        <p class="lg:mx-32">
-          Weektodo is a Free and open source project backed with donations of users like you! If you enjoy WeekToDo the best
-          way to ensure it remains available is to make a donation. Thank you for support Weektodo.
-        </p>
+        <h1 class="text-4xl font-bold title-font text-gray-900 mb-3">
+          ❤️ {t("support_us.support_weektodo")}Support WeekToDo
+        </h1>
+        <p class="lg:mx-32">{t("support_us.support_us_description")}</p>
       </div>
 
       <table class="table m-auto lg:w-1/2">
         <thead>
           <tr>
             <th></th>
-            <th>Donation Methods</th>
+            <th>{t("support_us.donation_methods")}</th>
           </tr>
         </thead>
         <tbody>
@@ -39,16 +35,16 @@ changeLanguage("en");
                 class="block py-2.5 px-0 w-full bg-transparent border-0 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer"
               >
                 <option selected>Visa / Mastercard / Maestro</option>
-                <option value="US">5 USD</option>
-                <option value="CA">10 USD</option>
-                <option value="FR">15 USD</option>
-                <option value="DE">20 USD</option>
-                <option value="DE">25 USD</option>
-                <option value="DE">30 USD</option>
-                <option value="DE">50 USD</option>
-                <option value="DE">75 USD</option>
-                <option value="DE">100 USD</option>
-                <option value="DE">Other</option>
+                <option value="5">5 USD</option>
+                <option value="10">10 USD</option>
+                <option value="15">15 USD</option>
+                <option value="20">20 USD</option>
+                <option value="25">25 USD</option>
+                <option value="30">30 USD</option>
+                <option value="50">50 USD</option>
+                <option value="75">75 USD</option>
+                <option value="10">100 USD</option>
+                <option value="Other">Other</option>
               </select>
             </td>
           </tr>
@@ -58,7 +54,7 @@ changeLanguage("en");
                 <img src="/img/bitcoin-btc-logo.svg" />
               </div>
             </th>
-            <td>Cryptocurrencies</td>
+            <td>{t("support_us.cryptocurrencies")}</td>
           </tr>
           <tr>
             <th>
@@ -71,14 +67,14 @@ changeLanguage("en");
         </tbody>
       </table>
       <div class="flex flex-col text-center w-full mb-8">
-        <h2 class="text-2xl font-bold title-font text-gray-900 my-4">Other way to support the development</h2>
+        <h2 class="text-2xl font-bold title-font text-gray-900 my-4">{t("support_us.other_support_methods")}</h2>
       </div>
 
       <table class="table m-auto lg:w-1/2">
         <thead>
           <tr>
             <th></th>
-            <th>Other Support Methods</th>
+            <th>{t("support_us.other_methods")}</th>
           </tr>
         </thead>
         <tbody>
@@ -88,7 +84,7 @@ changeLanguage("en");
                 <img src="/img/heart.svg" />
               </div>
             </th>
-            <td> Sponsor Us</td>
+            <td>{t("support_us.sponsor_us")}</td>
           </tr>
           <tr>
             <th>
@@ -97,9 +93,9 @@ changeLanguage("en");
               </div>
             </th>
             <td
-              >Rate Us on <a class="text-sky-900 font-bold" href="https://alternativeto.net/software/weektodo/about/"
-                >AlternativeTo
-              </a> or <a class="text-sky-900 font-bold" href="https://github.com/manuelernestog/weektodo-web">Github</a>
+              >{t("support_us.rate_us")}
+              <a class="text-sky-900 font-bold" href="https://alternativeto.net/software/weektodo/about/">AlternativeTo</a> /
+              <a class="text-sky-900 font-bold" href="https://github.com/manuelernestog/weektodo-web">Github</a>
             </td>
           </tr>
           <tr>
@@ -108,7 +104,7 @@ changeLanguage("en");
                 <img src="/img/translation.svg" />
               </div>
             </th>
-            <td>Translate the app</td>
+            <td>{t("support_us.translate_the_app")}</td>
           </tr>
           <tr>
             <th>
@@ -116,7 +112,7 @@ changeLanguage("en");
                 <img src="/img/dev.svg" />
               </div>
             </th>
-            <td>Development</td>
+            <td>{t("support_us.development")}</td>
           </tr>
           <tr>
             <th>

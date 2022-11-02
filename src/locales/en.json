@@ -27,5 +27,19 @@
     "download": "Download",
     "support_us": "Support Us",
     "blog": "Blog"
+  },
+  "support_us":{
+    "support_weektodo": "Support Weektodo",
+    "support_us_description": "Weektodo is a Free and open source project backed with donations of users like you! If you enjoy WeekToDo the best way to ensure it remains available is to make a donation. Thank you for support Weektodo.",
+    "donation_methods": "Donation Methods",
+    "cryptocurrencies": "Cryptocurrencies",
+    "other_support_methods": "Other way to support the development",
+    "other_methods": "Other Support Methods",
+    "sponsor_us": "Sponsor us",
+    "rate_us": "Rate us on",
+    "translate_the_app": "Translate the app",
+    "development": "Development",
+    "share_with_friends": "Share with Friends",
+    "share_in": "Share in"
   }
 }

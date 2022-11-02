@@ -1,9 +1,10 @@
 ---
+import i18next, { t } from "i18next";
 ---
 
 <div class="share-dialog">
   <header>
-    <h3 class="dialog-title">Share in:</h3>
+    <h3 class="dialog-title">{t("support_us.share_in")}</h3>
     <button class="close-button"
       ><svg>
         <use href="#close"></use>
@@ -45,7 +46,7 @@
   </div>
 </div>
 
-<a class="share-button cursor-pointer"> Share with friends</a>
+<a class="share-button cursor-pointer"> {t("support_us.share_with_friends")}</a>
 
 <svg class="hidden">
   <defs>
