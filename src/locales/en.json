@@ -41,5 +41,17 @@
     "development": "Development",
     "share_with_friends": "Share with Friends",
     "share_in": "Share in"
+  },
+  "download": {
+    "download": "Download Weektodo",
+    "current_version": "Current Version",
+    "windows_desc": "64-bit installer for Windows 7, 8, 10 and 11",
+    "mac_desc": "Compatible with Intel and M1",
+    "linux_desc": "Available for Debian, Arch and Fedora base linux distributions.",
+    "browser_desc": "Run the app directly from a web browser",
+    "installer": "Installer",
+    "web_browser": "Web browser",
+    "open_on_web": "Open on web",
+    "get_old_versions": "Get older versions on"
   }
 }
