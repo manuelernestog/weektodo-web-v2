@@ -4,7 +4,15 @@
     "description": "Here is the description of my awesome website!"
   },
   "home": {
-    "title": "Welcome to my awesome website!"
+    "title": "Welcome to my awesome website!",
+    "the_minimalist": "The Minimalist",
+    "weekly_planner": "Weekly Planner",
+    "focused": "focused on",
+    "efectivennes": "Efectivennes",
+    "simplicity": "Simplicity",
+    "privacy": "Privacy",
+    "hero_subtitle": "Weektodo is a Free and Open Source Weekly Planner. Stop prioritizing what’s on your schedule and start scheduling your priorities.",
+    "download_now": "Download Now"
   },
   "sponsor": {
     "sponsor": "Sponsor",
@@ -22,13 +30,13 @@
     "support_development": "Support Development",
     "sponsor_instructions": "If you are interested in supporting weektodo please click on any of the plans and fill out the sponsorship form. As soon as we receive the information we will contact you. We reserve the right to accept or deny sponsorship based on our values and the type of project you are submitting."
   },
-  "ui":{
+  "ui": {
     "get_started": "Get Started",
     "download": "Download",
     "support_us": "Support Us",
     "blog": "Blog"
   },
-  "support_us":{
+  "support_us": {
     "support_weektodo": "Support Weektodo",
     "support_us_description": "Weektodo is a Free and open source project backed with donations of users like you! If you enjoy WeekToDo the best way to ensure it remains available is to make a donation. Thank you for support Weektodo.",
     "donation_methods": "Donation Methods",
