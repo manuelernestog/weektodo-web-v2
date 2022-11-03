@@ -2,6 +2,7 @@
 import i18next, { t } from "i18next";
 import ShareButton from "../components/ShareButton.astro";
 import BaseLayout from "../layout/BaseLayout.astro";
+import SupportUsCard from "../components/supportUsCard.astro";
 ---
 
 <BaseLayout>
@@ -14,116 +15,64 @@ import BaseLayout from "../layout/BaseLayout.astro";
         <p class="lg:mx-32">{t("support_us.support_us_description")}</p>
       </div>
 
-      <table class="table m-auto lg:w-1/2">
-        <thead>
-          <tr>
-            <th></th>
-            <th>{t("support_us.donation_methods")}</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>
-              <div class="w-10 h-10">
-                <img src="/img/creidt-card.svg" />
+      <div class="flex flex-wrap -m-4 lg:px-16 my-6">
+        <div class="p-4 md:w-1/3">
+          <div class="flex rounded-lg border-2 rounded-lg hover:bg-gray-100 border-gray-200 border-opacity-50 p-8 flex-col">
+            <div class="flex items-center">
+              <div class="w-8 h-8 mr-3 inline-flex items-center justify-center flex-shrink-0">
+                <img class="w-8 h-8" src="/img/creidt-card.svg" />
               </div>
-            </th>
-            <td>
-              <label for="underline_select" class="sr-only">Underline select</label>
-              <select
-                id="underline_select"
-                class="block py-2.5 px-0 w-full bg-transparent border-0 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer"
-              >
-                <option selected>Visa / Mastercard / Maestro</option>
-                <option value="5">5 USD</option>
-                <option value="10">10 USD</option>
-                <option value="15">15 USD</option>
-                <option value="20">20 USD</option>
-                <option value="25">25 USD</option>
-                <option value="30">30 USD</option>
-                <option value="50">50 USD</option>
-                <option value="75">75 USD</option>
-                <option value="10">100 USD</option>
-                <option value="Other">Other</option>
-              </select>
-            </td>
-          </tr>
-          <tr>
-            <th>
-              <div class="w-10 h-10">
-                <img src="/img/bitcoin-btc-logo.svg" />
-              </div>
-            </th>
-            <td>{t("support_us.cryptocurrencies")}</td>
-          </tr>
-          <tr>
-            <th>
-              <div class="w-10 h-10">
-                <img src="/img/qvapay.svg" />
-              </div>
-            </th>
-            <td>Qvapay / MLC / CUP</td>
-          </tr>
-        </tbody>
-      </table>
-      <div class="flex flex-col text-center w-full mb-8">
+              <h2 class="text-gray-900 text-lg title-font font-medium w-full">
+                <label for="underline_select" class="sr-only">Underline select</label>
+                <select
+                  id="underline_select"
+                  class="block cursor-pointer px-0 w-full bg-transparent border-0 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer"
+                >
+                  <option selected>Visa / Mastercard</option>
+                  <option value="5">5 USD</option>
+                  <option value="10">10 USD</option>
+                  <option value="15">15 USD</option>
+                  <option value="20">20 USD</option>
+                  <option value="25">25 USD</option>
+                  <option value="30">30 USD</option>
+                  <option value="50">50 USD</option>
+                  <option value="75">75 USD</option>
+                  <option value="10">100 USD</option>
+                  <option value="Other">Other</option>
+                </select>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <SupportUsCard title={t("support_us.cryptocurrencies")} img="/img/bitcoin-btc-logo.svg" url="/sponsor-us" />
+        <SupportUsCard title="Qvapay / MLC / CUP" img="/img/qvapay.svg" url="/sponsor-us" />
+      </div>
+
+      <div class="flex flex-col text-center w-full">
         <h2 class="text-2xl font-bold title-font text-gray-900 my-4">{t("support_us.other_support_methods")}</h2>
       </div>
 
-      <table class="table m-auto lg:w-1/2">
-        <thead>
-          <tr>
-            <th></th>
-            <th>{t("support_us.other_methods")}</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>
-              <div class="w-10 h-10">
-                <img src="/img/heart.svg" />
+      <div class="flex flex-wrap -m-4 lg:px-16 my-6">
+        <SupportUsCard title={t("support_us.sponsor_us")} img="/img/heart.svg" url="/sponsor-us" target="_self" />
+        <SupportUsCard
+          title={t("support_us.rate_us")}
+          img="/img/star-icon.svg"
+          url="https://alternativeto.net/software/weektodo/about/"
+        />
+        <SupportUsCard title={t("support_us.translate_the_app")} img="/img/translation.svg" url="/sponsor-us" />
+        <SupportUsCard title={t("support_us.development")} img="/img/dev.svg" url="/sponsor-us" />
+
+        <div class="p-4 md:w-1/3 w-full">
+          <div class="flex rounded-lg border-2 rounded-lg hover:bg-gray-100 border-gray-200 border-opacity-50 p-8 flex-col">
+            <div class="flex items-center">
+              <div class="w-8 h-8 mr-3 inline-flex items-center justify-center flex-shrink-0">
+                <img class="w-8 h-8" src="/img/share.svg" />
               </div>
-            </th>
-            <td>{t("support_us.sponsor_us")}</td>
-          </tr>
-          <tr>
-            <th>
-              <div class="w-10 h-10">
-                <img src="/img/star-icon.svg" />
-              </div>
-            </th>
-            <td
-              >{t("support_us.rate_us")}
-              <a class="text-sky-900 font-bold" href="https://alternativeto.net/software/weektodo/about/">AlternativeTo</a> /
-              <a class="text-sky-900 font-bold" href="https://github.com/manuelernestog/weektodo-web">Github</a>
-            </td>
-          </tr>
-          <tr>
-            <th>
-              <div class="w-10 h-10">
-                <img src="/img/translation.svg" />
-              </div>
-            </th>
-            <td>{t("support_us.translate_the_app")}</td>
-          </tr>
-          <tr>
-            <th>
-              <div class="w-10 h-10">
-                <img src="/img/dev.svg" />
-              </div>
-            </th>
-            <td>{t("support_us.development")}</td>
-          </tr>
-          <tr>
-            <th>
-              <div class="w-10 h-10">
-                <img src="/img/share.svg" />
-              </div>
-            </th>
-            <td><ShareButton /></td>
-          </tr>
-        </tbody>
-      </table>
+              <ShareButton />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </BaseLayout>
