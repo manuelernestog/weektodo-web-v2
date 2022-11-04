@@ -10,7 +10,8 @@ changeLanguage("en");
     <div class="container lg:px-16 px-5 pt-16 pb-8 mx-auto">
       <div class="flex flex-col text-center w-full mb-8">
         <h1 class="text-4xl font-bold title-font text-gray-900 mb-3">{t("download.download")}</h1>
-        <p>{t("download.current_version")}
+        <p>
+          {t("download.current_version")}
           <a class="text-gray-700 font-bold" href="/changelog">1.9.0</a>
         </p>
       </div>
@@ -25,9 +26,10 @@ changeLanguage("en");
             </svg>
             <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Windows</h2>
             <p class="leading-relaxed text-base">{t("download.windows_desc")}</p>
-            <button
-              class="flex mx-auto mt-6 text-white bg-sky-700 border-0 py-2 px-5 focus:outline-none hover:bg-sky-800 rounded"
-              >64-bit {t("download.installer")}</button
+            <a
+              href="https://github.com/manuelernestog/weektodo-web/releases/download/v1.9.0/WeekToDo-Setup-1.9.0.exe"
+              class="flex mx-auto mt-6 text-white bg-sky-700 border-0 py-2 w-fit px-5 focus:outline-none hover:bg-sky-800 rounded"
+              >64-bit {t("download.installer")}</a
             >
           </div>
         </div>
@@ -44,13 +46,15 @@ changeLanguage("en");
             <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">macOS</h2>
             <p class="leading-relaxed text-base">{t("download.mac_desc")}</p>
             <div class="flex flex-wrap justify-center">
-              <button
-                class="flex mt-6 text-white bg-sky-700 border-0 py-2 px-5 mx mx-2 focus:outline-none hover:bg-sky-800 rounded"
-                >.dmg</button
+              <a
+                href="https://github.com/manuelernestog/weektodo-web/releases/download/v1.9.0/WeekToDo-1.9.0.dmg"
+                class="flex w-fit mt-6 text-white bg-sky-700 border-0 py-2 px-5 mx mx-2 focus:outline-none hover:bg-sky-800 rounded"
+                >.dmg</a
               >
-              <button
-                class="flex mt-6 text-white bg-sky-700 border-0 py-2 px-5 mx-2 focus:outline-none hover:bg-sky-800 rounded"
-                >pkg {t("download.installer")}</button
+              <a
+                href="https://github.com/manuelernestog/weektodo-web/releases/download/v1.9.0/WeekToDo-1.9.0.pkg"
+                class="flex w-fit mt-6 text-white bg-sky-700 border-0 py-2 px-5 mx-2 focus:outline-none hover:bg-sky-800 rounded"
+                >pkg {t("download.installer")}</a
               >
             </div>
           </div>
@@ -67,25 +71,30 @@ changeLanguage("en");
             <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Linux</h2>
             <p class="leading-relaxed text-base">{t("download.linux_desc")}</p>
             <div class="flex flex-wrap justify-center">
-              <button
-                class="flex mt-6 text-white bg-sky-700 border-0 py-2 px-5 mx-2 focus:outline-none hover:bg-sky-800 rounded"
-                >.deb</button
+              <a
+                href="https://github.com/manuelernestog/weektodo-web/releases/download/v1.9.0/WeekToDo_1.9.0_amd64.deb"
+                class="flex mt-6 w-fit text-white bg-sky-700 border-0 py-2 px-5 mx-2 focus:outline-none hover:bg-sky-800 rounded"
+                >.deb</a
               >
-              <button
-                class="flex mt-6 text-white bg-sky-700 border-0 py-2 px-5 mx-2 focus:outline-none hover:bg-sky-800 rounded"
-                >.rpm</button
+              <a
+                href="https://github.com/manuelernestog/weektodo-web/releases/download/v1.9.0/WeekToDo-1.9.0.x86_64.rpm"
+                class="flex mt-6 w-fit text-white bg-sky-700 border-0 py-2 px-5 mx-2 focus:outline-none hover:bg-sky-800 rounded"
+                >.rpm</a
               >
-              <button
-                class="flex mt-6 text-white bg-sky-700 border-0 py-2 px-5 mx-2 focus:outline-none hover:bg-sky-800 rounded"
-                >.pacman</button
+              <a
+                href="https://github.com/manuelernestog/weektodo-web/releases/download/v1.9.0/WeekToDo-1.9.0.pacman"
+                class="flex mt-6 w-fit text-white bg-sky-700 border-0 py-2 px-5 mx-2 focus:outline-none hover:bg-sky-800 rounded"
+                >.pacman</a
               >
-              <button
-                class="flex mt-6 text-white bg-sky-700 border-0 py-2 px-5 mx-2 focus:outline-none hover:bg-sky-800 rounded"
-                >Snap</button
+              <a
+                href="https://snapcraft.io/weektodo"
+                class="flex mt-6 w-fit text-white bg-sky-700 border-0 py-2 px-5 mx-2 focus:outline-none hover:bg-sky-800 rounded"
+                >Snap</a
               >
-              <button
-                class="flex mt-6 text-white bg-sky-700 border-0 py-2 px-5 mx mx-2 focus:outline-none hover:bg-sky-800 rounded"
-                >AppImage</button
+              <a
+                href=""
+                class="flex mt-6 w-fit text-white bg-sky-700 border-0 py-2 px-5 mx mx-2 focus:outline-none hover:bg-sky-800 rounded"
+                >AppImage</a
               >
             </div>
           </div>
@@ -102,16 +111,17 @@ changeLanguage("en");
             <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">{t("download.web_browser")}</h2>
             <p class="leading-relaxed text-base">{t("download.browser_desc")}</p>
             <div class="flex flex-wrap justify-center">
-              <button
-                class="flex mt-6 text-white bg-sky-700 border-0 py-2 px-5 mx mx-2 focus:outline-none hover:bg-sky-800 rounded"
-                >{t("download.open_on_web")}</button
+              <a
+                href="https://app.weektodo.me"
+                class="flex mt-6 text-white w-fit bg-sky-700 border-0 py-2 px-5 mx mx-2 focus:outline-none hover:bg-sky-800 rounded"
+                >{t("download.open_on_web")}</a
               >
             </div>
           </div>
         </div>
       </div>
       <div class="flex text-center w-full my-8">
-        <a class="m-auto" href="">{t("download.get_old_versions")} <span class="font-bold">Github</span></a>
+        <a class="m-auto" href="https://github.com/manuelernestog/weektodo-web/releases">{t("download.get_old_versions")} <span class="font-bold">Github</span></a>
       </div>
     </div>
   </section>
