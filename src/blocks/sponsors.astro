@@ -1,45 +1,40 @@
+---
+import { t } from "i18next";
+
+import sponsors from "../data/sponsors.json";
+---
+
 <section class="text-gray-600 body-font py-10">
   <div class="container mx-auto lg:px-24 px-5 pb-6 mx-auto">
     <div class="flex flex-col text-center w-full mb-8">
-      <h2 class="text-4xl font-bold title-font mb-4 text-gray-900">Our Sponsors</h2>
-      <p>Thank you for your support!</p>
+      <h2 class="text-4xl font-bold title-font mb-4 text-gray-900">{t("home.our_sponsors")}</h2>
+      <p>{t("home.thanks_for_support")}</p>
     </div>
     <div class="flex flex-wrap -m-4 justify-center">
-      <div class="p-4 lg:w-1/6 w-1/3 flex">
-        <img
-          alt="team"
-          class="flex-shrink-0 self-center rounded-lg w-full object-cover object-center mb-4"
-          src="/sponsors/hallwayAD/hallwayAD_wide.png"
-        />
-      </div>
-      <div class="p-4 lg:w-1/6 w-1/3 flex">
-        <img
-          alt="team"
-          class="flex-shrink-0 rounded-lg self-center w-full object-cover object-center mb-4"
-          src="/sponsors/baldokin/wide.webp"
-        />
-      </div>
-      <div class="p-4 lg:w-1/6 w-1/3 flex">
-        <img
-          alt="team"
-          class="flex-shrink-0 rounded-lg w-full self-center object-cover object-center mb-4"
-          src="/sponsors/efectivida/efectivida_wide.png"
-        />
-      </div>
-      <div class="p-4 lg:w-1/6 w-1/3 flex">
-        <img
-          alt="team"
-          class="flex-shrink-0 rounded-lg w-full self-center object-cover object-center mb-4"
-          src="/sponsors/productiveness/productiveness-logo.png"
-        />
-      </div>
+      {
+        sponsors.bronze.map((sponsor) => (
+          <div class="p-4 lg:w-1/6 w-1/3 flex">
+            <a href={sponsor.url} class="flex">
+              <img
+                class="flex-shrink-0 self-center rounded-lg w-full object-cover object-center mb-4"
+                alt={sponsor.name}
+                title={sponsor.message}
+                src={sponsor.webImg}
+              />
+            </a>
+          </div>
+        ))
+      }
+
+
     </div>
   </div>
+
   <div class="flex justify-center">
     <a
       class="ml-4 inline-flex text-gray-500 border py-2 px-6 focus:outline-none hover:bg-gray-200 hover:text-gray-700 rounded text-lg"
-    href="/sponsor-us"
-      >
+      href="/sponsor-us"
+    >
       <svg width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" class="m-auto mr-2"
         ><path
           fill="none"
@@ -48,7 +43,7 @@
           d="M7 3C4.239 3 2 5.216 2 7.95c0 2.207.875 7.445 9.488 12.74a.985.985 0 0 0 1.024 0C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3s-5 3-5 3s-2.239-3-5-3Z"
         ></path>
       </svg>
-      Become a Sponsor
+      {t("home.become_sponsor")}
     </a>
   </div>
 </section>

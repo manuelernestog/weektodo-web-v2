@@ -12,7 +12,22 @@
     "simplicity": "Simplicity",
     "privacy": "Privacy",
     "hero_subtitle": "Weektodo is a Free and Open Source Weekly Planner. Stop prioritizing what’s on your schedule and start scheduling your priorities.",
-    "download_now": "Download Now"
+    "download_now": "Download Now",
+    "block1_title": "What is Weektodo",
+    "block1_desc": "WeekToDo is a free minimalist weekly planner. Improve your productivity by defining and managing your week and your life in an easy and intuitive way.",
+    "block2_title": "How it works ?",
+    "block2_desc": "The security of your data is essential. WeekToDo is focused 100% on privacy. All your data is stored on your computer (in your web browser or in the application). The only person who has access to your data is you.",
+    "block3_title": "Available for everynone",
+    "block3_desc": "WeekToDo is a free and Open Source project available for everyone. You can enjoy it in any desktop operating system or web browser. It is also available in multiple languages.",
+    "direct_downloads": "Direct Downloads",
+    "active_users": "Active Users",
+    "countries": "Countries",
+    "github_stars": "Github Stars",
+    "block4_title": "Free your Potential",
+    "block4_desc": "Cross your limits and start being more productive by focusing on what is really important. Download WeekToDo for your favorite Operative System or access directly from the browser.",
+    "our_sponsors": "Our Sponsors",
+    "thanks_for_support": "Thank you for your support!",
+    "become_sponsor": "Become a Sponsor"
   },
   "sponsor": {
     "sponsor": "Sponsor",

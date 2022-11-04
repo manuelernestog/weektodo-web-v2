@@ -1,0 +1,69 @@
+{
+  "bronze": [
+    {
+      "name": "hallwayAD",
+      "message": "Architectural & Graphics Design Agency.",
+      "start_at": "19/4/2022",
+      "end_at": "19/7/2022",
+      "recurrent": false,
+      "contribution": 30,
+      "months": "3",
+      "plan": "bronze",
+      "probability": "1",
+      "url": "https://t.me/hallwayAD",
+      "img": "https://support.weektodo.me/data/img/hallwayAD/hallwayAD_squared.png",
+      "webImg": "https://support.weektodo.me/data/img/hallwayAD/hallwayAD_wide.png"
+    },
+    {
+      "name": "R. Baldokin",
+      "message": "Marketer & Social Media Manager ayudando a las Marcas a ser más relevantes en el mundo en digital.",
+      "start_at": "19/6/2022",
+      "end_at": "19/6/2023",
+      "recurrent": false,
+      "contribution": 30,
+      "months": "12",
+      "plan": "bronze",
+      "probability": "1",
+      "url": "https://t.me/KATAPVLTA",
+      "img": "https://support.weektodo.me/data/img/baldokin/squared.webp",
+      "webImg": "https://support.weektodo.me/data/img/baldokin/wide.webp"
+    },
+    {
+      "name": "MÉTODO C.A.R.",
+      "message": " El método definitivo para organizar tu vida de forma sencilla y sin estrés.",
+      "start_at": "18/3/2022",
+      "end_at": "1/2/2022",
+      "recurrent": false,
+      "contribution": 100,
+      "months": "12",
+      "plan": "bronze",
+      "probability": "1",
+      "url": "https://www.efectivida.es/car/",
+      "img": "https://support.weektodo.me/data/img/MetodoCAR/MetodoCarSquared.png",
+      "webImg": "https://support.weektodo.me/data/img/MetodoCAR/MetodoCarWide.webp"
+    },
+    {
+      "name": "Productiveness",
+      "message": " El método definitivo para organizar tu vida de forma sencilla y sin estrés.",
+      "start_at": "18/3/2022",
+      "end_at": "1/2/2022",
+      "recurrent": false,
+      "contribution": 100,
+      "months": "12",
+      "plan": "bronze",
+      "probability": "1",
+      "url": "https://www.productiveness.net",
+      "img": "https://support.weektodo.me/data/img/MetodoCAR/MetodoCarSquared.png",
+      "webImg": "/sponsors/productiveness/productiveness-logo.png"
+    }
+  ],
+  "silver": [
+
+  ],
+  "golden": [
+
+  ],
+  "diamond": [
+
+  ]
+}
