@@ -1,5 +1,5 @@
 ---
-import i18next, { t } from "i18next";
+import i18next, { t, changeLanguage } from "i18next";
 import { Trans, HeadHrefLangs } from "astro-i18next/components";
 import Hero1 from "../blocks/hero1.astro";
 import Block1 from "../blocks/block1.astro";
@@ -9,6 +9,8 @@ import StatsBlock from "../blocks/statsBlock.astro";
 import CtaDownload from "../blocks/ctaDownload.astro";
 import Sponsors from "../blocks/sponsors.astro";
 import BaseLayout from "../layout/BaseLayout.astro";
+
+changeLanguage("en");
 ---
 
 <BaseLayout title={t("home.title")}>

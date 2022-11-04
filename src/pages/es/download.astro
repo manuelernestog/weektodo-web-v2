@@ -1,6 +1,5 @@
 ---
 import i18next, { t, changeLanguage } from "i18next";
-import { Trans, HeadHrefLangs } from "astro-i18next/components";
 import BaseLayout from "../../layout/BaseLayout.astro";
 
 changeLanguage("es");
@@ -10,8 +9,8 @@ changeLanguage("es");
   <section class="text-gray-600 body-font">
     <div class="container lg:px-16 px-5 pt-16 pb-8 mx-auto">
       <div class="flex flex-col text-center w-full mb-8">
-        <h1 class="text-4xl font-bold title-font text-gray-900 mb-3">Download Weektodo</h1>
-        <p>Current Version  
+        <h1 class="text-4xl font-bold title-font text-gray-900 mb-3">{t("download.download")}</h1>
+        <p>{t("download.current_version")}
           <a class="text-gray-700 font-bold" href="/changelog">1.9.0</a>
         </p>
       </div>
@@ -25,10 +24,10 @@ changeLanguage("es");
               ></path>
             </svg>
             <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Windows</h2>
-            <p class="leading-relaxed text-base">64-bit installer for Windows 7, 8, 10 and 11</p>
+            <p class="leading-relaxed text-base">{t("download.windows_desc")}</p>
             <button
               class="flex mx-auto mt-6 text-white bg-sky-700 border-0 py-2 px-5 focus:outline-none hover:bg-sky-800 rounded"
-              >64-bit Installer</button
+              >64-bit {t("download.installer")}</button
             >
           </div>
         </div>
@@ -43,15 +42,15 @@ changeLanguage("es");
               ></path>
             </svg>
             <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">macOS</h2>
-            <p class="leading-relaxed text-base">Compatible with Intel and M1</p>
+            <p class="leading-relaxed text-base">{t("download.mac_desc")}</p>
             <div class="flex flex-wrap justify-center">
               <button
                 class="flex mt-6 text-white bg-sky-700 border-0 py-2 px-5 mx mx-2 focus:outline-none hover:bg-sky-800 rounded"
-                >Universal dmg</button
+                >.dmg</button
               >
               <button
                 class="flex mt-6 text-white bg-sky-700 border-0 py-2 px-5 mx-2 focus:outline-none hover:bg-sky-800 rounded"
-                >pkg Installer</button
+                >pkg {t("download.installer")}</button
               >
             </div>
           </div>
@@ -66,7 +65,7 @@ changeLanguage("es");
             </svg>
 
             <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Linux</h2>
-            <p class="leading-relaxed text-base">Available for Debian, Arch and Fedora base linux distributions.</p>
+            <p class="leading-relaxed text-base">{t("download.linux_desc")}</p>
             <div class="flex flex-wrap justify-center">
               <button
                 class="flex mt-6 text-white bg-sky-700 border-0 py-2 px-5 mx-2 focus:outline-none hover:bg-sky-800 rounded"
@@ -100,19 +99,19 @@ changeLanguage("es");
                 d="M928 512.3v-.3c0-229.8-186.2-416-416-416S96 282.2 96 512v.4c0 229.8 186.2 416 416 416s416-186.2 416-416v-.3v.2zm-6.7-74.6l.6 3.3l-.6-3.3zM676.7 638.2c53.5-82.2 52.5-189.4-11.1-263.7l162.4-8.4c20.5 44.4 32 93.8 32 145.9c0 185.2-144.6 336.6-327.1 347.4l143.8-221.2zM512 652.3c-77.5 0-140.2-62.7-140.2-140.2c0-77.7 62.7-140.2 140.2-140.2S652.2 434.5 652.2 512S589.5 652.3 512 652.3zm369.2-331.7l-3-5.7l3 5.7zM512 164c121.3 0 228.2 62.1 290.4 156.2l-263.6-13.9c-97.5-5.7-190.2 49.2-222.3 141.1L227.8 311c63.1-88.9 166.9-147 284.2-147zM102.5 585.8c26 145 127.1 264 261.6 315.1C229.6 850 128.5 731 102.5 585.8zM164 512c0-55.9 13.2-108.7 36.6-155.5l119.7 235.4c44.1 86.7 137.4 139.7 234 121.6l-74 145.1C302.9 842.5 164 693.5 164 512zm324.7 415.4c4 .2 8 .4 12 .5c-4-.2-8-.3-12-.5z"
               ></path>
             </svg>
-            <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Web Browser</h2>
-            <p class="leading-relaxed text-base">Run the app directly from a web browser</p>
+            <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">{t("download.web_browser")}</h2>
+            <p class="leading-relaxed text-base">{t("download.browser_desc")}</p>
             <div class="flex flex-wrap justify-center">
               <button
                 class="flex mt-6 text-white bg-sky-700 border-0 py-2 px-5 mx mx-2 focus:outline-none hover:bg-sky-800 rounded"
-                >Open on Web</button
+                >{t("download.open_on_web")}</button
               >
             </div>
           </div>
         </div>
       </div>
       <div class="flex text-center w-full my-8">
-        <a class="m-auto" href="">Get older versions on <span class="font-bold">Github</span></a>
+        <a class="m-auto" href="">{t("download.get_old_versions")} <span class="font-bold">Github</span></a>
       </div>
     </div>
   </section>
