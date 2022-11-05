@@ -1,12 +1,10 @@
 ---
 layout: "../layout/PostLayout.astro"
-title: "Weektodo Changelog"
+title: "Privacy Statement"
 ---
 
 
-## App Privacy Statement
-
-Last updated: December 11, 2020
+>> Last updated: December 11, 2020
 
 We value your privacy by giving you complete control over your data.
 

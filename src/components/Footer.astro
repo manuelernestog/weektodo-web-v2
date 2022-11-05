@@ -16,16 +16,16 @@ import i18next, { t } from "i18next";
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Weektodo</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-gray-800" href="">{t("footer.download")}</a>
+            <a class="text-gray-600 hover:text-gray-800" href={localizePath("/download")}>{t("footer.download")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800" href="">{t("footer.web_planner")}</a>
+            <a class="text-gray-600 hover:text-gray-800" href="https://app.weektodo.me">{t("footer.web_planner")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">{t("ui.support_us")}</a>
+            <a class="text-gray-600 hover:text-gray-800" href={localizePath("/support-us")}>{t("ui.support_us")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">{t("footer.sponsor_us")}</a>
+            <a class="text-gray-600 hover:text-gray-800" href={localizePath("/sponsor-us")}>{t("footer.sponsor_us")}</a>
           </li>
          </nav>
       </div>
@@ -36,13 +36,13 @@ import i18next, { t } from "i18next";
             <a class="text-gray-600 hover:text-gray-800" href="/about">{t("footer.about")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">{t("ui.blog")}</a>
+            <a class="text-gray-600 hover:text-gray-800" href="/blog/1">{t("ui.blog")}</a>
           </li>
           <li>
             <a class="text-gray-600 hover:text-gray-800" href="/changelog">{t("footer.changelog")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800" href="#">{t("footer.roadmap")}</a>
+            <a class="text-gray-600 hover:text-gray-800" href="https://github.com/users/manuelernestog/projects/2">{t("footer.roadmap")}</a>
           </li>
         </nav>
       </div>
@@ -50,13 +50,13 @@ import i18next, { t } from "i18next";
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">{t("footer.connect")}</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-gray-800">{t("footer.contact_us")}</a>
+            <a class="text-gray-600 hover:text-gray-800" href="mailto:contact@weektodo.me">{t("footer.contact_us")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">{t("footer.bug_report")}</a>
+            <a class="text-gray-600 hover:text-gray-800" href="https://github.com/manuelernestog/weektodo-web/issues/new">{t("footer.bug_report")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">{t("support_us.development")}</a>
+            <a class="text-gray-600 hover:text-gray-800" href="https://github.com/manuelernestog/weektodo-web">{t("support_us.development")}</a>
           </li>
         </nav>
       </div>
@@ -64,10 +64,10 @@ import i18next, { t } from "i18next";
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">{t("footer.legal")}</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-gray-800">{t("footer.license")}</a>
+            <a class="text-gray-600 hover:text-gray-800" href="/license">{t("footer.license")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">{t("footer.privacy_statement")}</a>
+            <a class="text-gray-600 hover:text-gray-800" href="/privacy-statement">{t("footer.privacy_statement")}</a>
           </li>
         </nav>
       </div>
