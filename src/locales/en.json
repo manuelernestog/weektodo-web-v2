@@ -1,10 +1,9 @@
 {
   "site": {
-    "title": "My awesome website!",
-    "description": "Here is the description of my awesome website!"
+    "title": "Weektodo | Free & Open Source Minimalist Weekly Planner and To Do list App",
+    "description": "WeekToDo is a free & Open Source Minimalist Weekly Planner and To Do list App for simple and effective people. Schedule your tasks, set reminders and handle projects with To Do list and a calendar. Available for Windows, Mac, Linux or online."
   },
   "home": {
-    "title": "Welcome to my awesome website!",
     "the_minimalist": "The Minimalist",
     "weekly_planner": "Weekly Planner",
     "focused": "focused on",
