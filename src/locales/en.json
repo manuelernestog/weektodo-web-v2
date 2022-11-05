@@ -75,5 +75,22 @@
     "web_browser": "Web browser",
     "open_on_web": "Open on web",
     "get_old_versions": "Get older versions on"
+  },
+  "footer":{
+    "project": "Project",
+    "connect": "Connect",
+    "legal": "Legal",
+    "download": "Download",
+    "web_planner": "Web Planner",
+    "sponsor_us": "Sponsor Us",
+    "about": "About",
+    "changelog": "Changelog",
+    "roadmap": "Roadmap",
+    "contact_us": "Contact Us",
+    "bug_report": "Bug Report",
+    "license": "License",
+    "privacy_statement": "Privacy Statement",
+    "desc": "Free & Open Source Minimalist Weekly Planner and To Do list App",
+    "made_with_love": "Made with 💚 by"
   }
 }

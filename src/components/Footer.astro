@@ -1,3 +1,7 @@
+---
+import { localizePath } from "astro-i18next";
+import i18next, { t } from "i18next";
+---
 <footer class="text-gray-600 bg-gray-50 body-font mt-8">
   <div class="container mx-auto lg:px-24 px-5 py-8 flex items-center sm:flex-row flex-col">
     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
@@ -5,65 +9,65 @@
         <img src="/logo.svg" class="w-10 h-10 p-2" />
         <span class="ml-2 text-xl">Weektodo</span>
       </a>
-      <p class="mt-2 text-sm text-gray-500">Free & Open Source Minimalist Weekly Planner and To Do list App</p>
+      <p class="mt-2 text-sm text-gray-500">{t("footer.desc")}</p>
     </div>
     <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Weektodo</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-gray-800" href="">Download</a>
+            <a class="text-gray-600 hover:text-gray-800" href="">{t("footer.download")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800" href="">Web Planner</a>
+            <a class="text-gray-600 hover:text-gray-800" href="">{t("footer.web_planner")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Suport Us</a>
+            <a class="text-gray-600 hover:text-gray-800">{t("ui.support_us")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Sponsor Us</a>
+            <a class="text-gray-600 hover:text-gray-800">{t("footer.sponsor_us")}</a>
           </li>
          </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Project</h2>
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">{t("footer.project")}</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-gray-800" href="/about">About</a>
+            <a class="text-gray-600 hover:text-gray-800" href="/about">{t("footer.about")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Blog</a>
+            <a class="text-gray-600 hover:text-gray-800">{t("ui.blog")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800" href="/changelog">Changelog</a>
+            <a class="text-gray-600 hover:text-gray-800" href="/changelog">{t("footer.changelog")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800" href="#">Roadmap</a>
+            <a class="text-gray-600 hover:text-gray-800" href="#">{t("footer.roadmap")}</a>
           </li>
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Connect</h2>
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">{t("footer.connect")}</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Contact Us</a>
+            <a class="text-gray-600 hover:text-gray-800">{t("footer.contact_us")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Bug Report</a>
+            <a class="text-gray-600 hover:text-gray-800">{t("footer.bug_report")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Get Involved</a>
+            <a class="text-gray-600 hover:text-gray-800">{t("support_us.development")}</a>
           </li>
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Legal</h2>
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">{t("footer.legal")}</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-gray-800">License</a>
+            <a class="text-gray-600 hover:text-gray-800">{t("footer.license")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Privacy Statement</a>
+            <a class="text-gray-600 hover:text-gray-800">{t("footer.privacy_statement")}</a>
           </li>
         </nav>
       </div>
@@ -72,7 +76,7 @@
   <div class="bg-gray-50">
     <div class="container m-auto lg:px-24 px-5 py-8 flex items-center sm:flex-row flex-col border-t-[1px] border-gray-300">
       <p class="text-gray-500 text-sm text-center sm:text-left">
-        © 2022 Weektodo — Made with 💚 by
+        {t("footer.made_with_love")}
         <a
           href="https://manuelernestog.github.io"
           rel="noopener noreferrer"
