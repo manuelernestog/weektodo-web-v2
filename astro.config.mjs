@@ -7,5 +7,5 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(),astroI18next()],
-  site: 'https://weektodo.me'
+  site: 'https://weektodo-web-v2.vercel.app/'
 });
