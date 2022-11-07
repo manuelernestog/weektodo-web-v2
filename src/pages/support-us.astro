@@ -27,10 +27,10 @@ changeLanguage("en");
               <h2 class="text-gray-900 text-lg title-font font-medium w-full">
                 <label for="underline_select" class="sr-only">Underline select</label>
                 <select
-                  id="underline_select"
+                  id="visa_payment"
                   class="block cursor-pointer px-0 w-full bg-transparent border-0 appearance-none focus:outline-none focus:ring-0 focus:border-gray-200 peer"
                 >
-                  <option selected>Visa / Mastercard</option>
+                  <option value="" selected>Visa / Mastercard</option>
                   <option value="5">5 USD</option>
                   <option value="10">10 USD</option>
                   <option value="15">15 USD</option>
@@ -39,8 +39,7 @@ changeLanguage("en");
                   <option value="30">30 USD</option>
                   <option value="50">50 USD</option>
                   <option value="75">75 USD</option>
-                  <option value="10">100 USD</option>
-                  <option value="Other">Other</option>
+                  <option value="100">100 USD</option>
                 </select>
               </h2>
             </div>
@@ -78,3 +77,46 @@ changeLanguage("en");
     </div>
   </section>
 </BaseLayout>
+
+<option value="5">5 USD</option><option value="10">10 USD</option><option value="15">15 USD</option><option value="20"
+  >20 USD
+</option><option value="25">25 USD</option><option value="30">30 USD</option><option value="50">50 USD</option><option
+  value="75"
+  >75 USD
+</option><option value="10"
+  >100 USD
+
+  <script is:inline>
+    const el = document.getElementById("visa_payment").addEventListener("change", function (e) {
+      switch (this.value) {
+        case "5":
+          window.open("https://tppay.me/l2tkmqsd");
+          break;
+        case "10":
+          window.open("https://tppay.me/l2tknkiy");
+          break;
+        case "15":
+          window.open("https://tppay.me/l2tkw5vv");
+          break;
+        case "20":
+          window.open("https://tppay.me/l2tlea38");
+          break;
+        case "25":
+          window.open("https://tppay.me/l2tleu0m");
+          break;
+        case "30":
+          window.open("https://tppay.me/l2tlg1s5");
+          break;
+        case "50":
+          window.open("https://tppay.me/l2tlgpm5");
+          break;
+        case "75":
+          window.open("https://tppay.me/l2tlh5t2");
+          break;
+        case "100":
+          window.open("https://tppay.me/l2tlhkjb");
+          break;
+      }
+    });
+  </script>
+</option>
