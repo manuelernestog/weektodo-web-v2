@@ -1,0 +1,64 @@
+---
+import i18next, { t, changeLanguage } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+import BaseLayout from "../../layout/BaseLayout.astro";
+import Pricing from "../../components/pricing.astro";
+
+changeLanguage("fr");
+---
+
+<BaseLayout>
+  <section class="text-gray-600 body-font">
+    <div class="container lg:px-16 px-5 pt-16 pb-8 mx-auto">
+      <div class="flex flex-col text-center w-full mb-8">
+        <h1 class="text-4xl font-bold title-font text-gray-900 mb-3">{t("sponsor.sponsor_weektodo")}</h1>
+        <p class="lg:mx-32">{t("sponsor.sponsor_description")}</p>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <Pricing
+          title={t("sponsor.bronze")}
+          price="$25"
+          btn_label={t("sponsor.sponsor")}
+          features={[
+            t("sponsor.support_development"),
+            t("sponsor.small_reference_in_main_website"),
+            t("sponsor.splash_screen_show_up_probability") + " x1",
+          ]}
+        />
+        <Pricing
+          title={t("sponsor.silver")}
+          price="$50"
+          btn_label={t("sponsor.sponsor")}
+          features={[
+            t("sponsor.support_development"),
+            t("sponsor.medium_reference_in_main_website"),
+            t("sponsor.splash_screen_show_up_probability") + " x3",
+          ]}
+        />
+        <Pricing
+          title={t("sponsor.golden")}
+          price="$99"
+          btn_label={t("sponsor.sponsor")}
+          features={[
+            t("sponsor.support_development"),
+            t("sponsor.big_reference_in_main_website"),
+            t("sponsor.splash_screen_show_up_probability") + " x7",
+          ]}
+        />
+        <Pricing
+          title={t("sponsor.diamond")}
+          price="$199"
+          btn_label={t("sponsor.sponsor")}
+          features={[
+            t("sponsor.support_development"),
+            t("sponsor.featured_reference_in_main_website"),
+            t("sponsor.splash_screen_show_up_probability") + " x15",
+          ]}
+        />
+      </div>
+      <div class="flex flex-col text-center w-full mb-8">
+        <p class="lg:mx-32 mt-6">{t("sponsor.sponsor_instructions")}</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
