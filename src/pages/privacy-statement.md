@@ -13,8 +13,8 @@ If you use Weektodo all data is saved on your device locally and is never sent t
 Weektodo only connects to the internet for the next reasons:
 
 - Get the sponsor data that show up when the app is loading
+- Send a request to a public counter for sponsor impressions
 - Periodically check for new updates
-- Send a request to a counter of general daily usage for public statistics
 - Send error report in case of error
  
 You can disable this features in Settings -> General.
