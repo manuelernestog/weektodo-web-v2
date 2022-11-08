@@ -6,7 +6,7 @@ const {
 } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description} image={heroImage} >
+<BaseLayout title={title} description={description} image={heroImage}>
   <div class="container mx-auto">
     <div class="flex flex-col text-center w-full mb-8 pt-20">
       <h1 class="text-4xl font-bold title-font mb-4 text-gray-900 lg:w-2/3 mx-auto">{title}</h1>
@@ -14,7 +14,7 @@ const {
     </div>
 
     <article class="prose lg:prose-xl m-auto mb-16">
-      <img class="my-6" src={heroImage} alt="">
+      {heroImage && <img class="my-6" src={heroImage} alt={title} />}
       <slot />
     </article>
   </div>

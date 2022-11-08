@@ -6,7 +6,7 @@ const { img, title, url, target="_blank" } = Astro.props;
   <div class="flex rounded-lg border-2 rounded-lg hover:bg-gray-100 border-gray-200 border-opacity-50 p-8 flex-col">
     <div class="flex items-center">
       <div class="w-8 h-8 mr-3 inline-flex items-center justify-center flex-shrink-0">
-        <img class="w-8 h-8" src={img} />
+        <img class="w-8 h-8" src={img} alt={title} />
       </div>
       <a href={url} target={target} class="text-gray-900 w-full text-lg title-font font-medium">{title}</a>
     </div>

@@ -2,11 +2,12 @@
 import { localizePath } from "astro-i18next";
 import i18next, { t } from "i18next";
 ---
+
 <footer class="text-gray-600 bg-gray-50 body-font mt-8">
   <div class="container mx-auto lg:px-24 px-5 py-8 flex items-center sm:flex-row flex-col">
     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <img src="/logo.svg" class="w-10 h-10 p-2" />
+        <img src="/logo.svg" class="w-10 h-10 p-2" alt="weektodo logo" />
         <span class="ml-2 text-xl">Weektodo</span>
       </a>
       <p class="mt-2 text-sm text-gray-500">{t("footer.desc")}</p>
@@ -27,7 +28,7 @@ import i18next, { t } from "i18next";
           <li>
             <a class="text-gray-600 hover:text-gray-800" href="/blog/1">{t("ui.blog")}</a>
           </li>
-         </nav>
+        </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">{t("footer.project")}</h2>
@@ -42,7 +43,9 @@ import i18next, { t } from "i18next";
             <a class="text-gray-600 hover:text-gray-800" href="/changelog">{t("footer.changelog")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800" href="https://github.com/users/manuelernestog/projects/2">{t("footer.roadmap")}</a>
+            <a class="text-gray-600 hover:text-gray-800" href="https://github.com/users/manuelernestog/projects/2"
+              >{t("footer.roadmap")}</a
+            >
           </li>
         </nav>
       </div>
@@ -53,10 +56,14 @@ import i18next, { t } from "i18next";
             <a class="text-gray-600 hover:text-gray-800" href="mailto:contact@weektodo.me">{t("footer.contact_us")}</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800" href="https://github.com/manuelernestog/weektodo-web/issues/new">{t("footer.bug_report")}</a>
+            <a class="text-gray-600 hover:text-gray-800" href="https://github.com/manuelernestog/weektodo-web/issues/new"
+              >{t("footer.bug_report")}</a
+            >
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800" href="https://github.com/manuelernestog/weektodo-web">{t("support_us.development")}</a>
+            <a class="text-gray-600 hover:text-gray-800" href="https://github.com/manuelernestog/weektodo-web"
+              >{t("support_us.development")}</a
+            >
           </li>
         </nav>
       </div>
@@ -104,7 +111,10 @@ import i18next, { t } from "i18next";
           </svg>
         </a>
 
-        <a class="ml-3 text-gray-500" href="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=291402&theme=dark">
+        <a
+          class="ml-3 text-gray-500"
+          href="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=291402&theme=dark"
+        >
           <svg class="w-5 h-5" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"
             ><path fill="currentColor" d="M13.337 9h-2.838v3h2.838a1.501 1.501 0 1 0 0-3z"></path><path
               fill="currentColor"
