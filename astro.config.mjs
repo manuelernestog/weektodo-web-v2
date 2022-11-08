@@ -7,6 +7,19 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), astroI18next(), sitemap()],
+  integrations: [
+    tailwind(),
+    astroI18next(),
+    sitemap({
+      i18n: {
+        defaultLocale: "en",
+        locales: {
+          en: "en-US",
+          es: "es-ES",
+          fr: "fr-CA",
+        },
+      },
+    }),
+  ],
   site: "https://weektodo-web-v2.vercel.app/",
 });
