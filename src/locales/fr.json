@@ -47,7 +47,7 @@
     "changelog": "Journal des modifications",
     "connect": "Relier",
     "contact_us": "Nous contacter",
-    "desc": "Libre",
+    "desc": "Planificateur hebdomadaire minimaliste gratuit et open source et application de liste de tâches",
     "download": "Télécharger",
     "legal": "Juridique",
     "license": "Licence",
@@ -59,8 +59,8 @@
     "web_planner": "Planificateur Web"
   },
   "site": {
-    "description": "WeekToDo est gratuit",
-    "title": "Weektodo | \nLibre"
+    "description": "Weektodo est un planificateur hebdomadaire minimaliste gratuit et Open Source et une application de liste de tâches pour les personnes simples et efficaces. Planifiez vos tâches, définissez des rappels et gérez des projets avec une liste de tâches et un calendrier. Disponible pour Windows, Mac, Linux ou en ligne.",
+    "title": "Weektodo | Planificateur hebdomadaire minimaliste gratuit et open source et application de liste de tâches"
   },
   "sponsor": {
     "big_reference_in_main_website": "Grande référence dans le site Web principal",

@@ -22,7 +22,7 @@
     "changelog": "registro de cambios",
     "connect": "Conectar",
     "contact_us": "Contáctenos",
-    "desc": "Libre",
+    "desc": "Planificador semanal minimalista gratuito y de código abierto y aplicación de lista de tareas pendientes",
     "download": "Descargar",
     "legal": "Legal",
     "license": "Licencia",
@@ -59,8 +59,8 @@
     "efectivennes": "Eficacia"
   },
   "site": {
-    "description": "WeekToDo es gratuito",
-    "title": "Semanatodo | \nLibre"
+    "description": "Weektodo es un planificador semanal minimalista gratuito y de código abierto y una aplicación de lista de tareas para personas simples y efectivas. Programe sus tareas, establezca recordatorios y maneje proyectos con la lista de tareas pendientes y un calendario. Disponible para Windows, Mac, Linux o en línea.",
+    "title": "Weektodo | Planificador semanal minimalista gratuito y de código abierto y aplicación de lista de tareas pendientes"
   },
   "sponsor": {
     "big_reference_in_main_website": "Gran referencia en el sitio web principal",

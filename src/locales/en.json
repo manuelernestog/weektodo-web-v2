@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Weektodo | Free & Open Source Minimalist Weekly Planner and To Do list App",
-    "description": "WeekToDo is a free & Open Source Minimalist Weekly Planner and To Do list App for simple and effective people. Schedule your tasks, set reminders and handle projects with To Do list and a calendar. Available for Windows, Mac, Linux or online."
+    "title": "Weektodo | Free and Open Source Minimalist Weekly Planner and To Do list App",
+    "description": "WeekToDo is a free and Open Source Minimalist Weekly Planner and To Do list App for simple and effective people. Schedule your tasks, set reminders and handle projects with To Do list and a calendar. Available for Windows, Mac, Linux or online."
   },
   "home": {
     "the_minimalist": "The Minimalist",
@@ -100,7 +100,7 @@
     "bug_report": "Bug Report",
     "license": "License",
     "privacy_statement": "Privacy Statement",
-    "desc": "Free & Open Source Minimalist Weekly Planner and To Do list App",
+    "desc": "Free and Open Source Minimalist Weekly Planner and To Do list App",
     "made_with_love": "Made with 💚 by"
   }
 }
