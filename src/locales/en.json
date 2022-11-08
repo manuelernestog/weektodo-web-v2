@@ -79,7 +79,7 @@
     "current_version": "Current Version",
     "windows_desc": "64-bit installer for Windows 7, 8, 10 and 11",
     "mac_desc": "Compatible with Intel and M1",
-    "linux_desc": "Available for Debian, Arch and Fedora base linux distributions.",
+    "linux_desc": "Available for Debian, Arch and Fedora based linux distributions.",
     "browser_desc": "Run the app directly from a web browser",
     "installer": "Installer",
     "web_browser": "Web browser",

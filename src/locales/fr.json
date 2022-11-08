@@ -35,7 +35,7 @@
     "download": "Télécharger Weektodo",
     "get_old_versions": "Obtenir les anciennes versions sur",
     "installer": "Installateur",
-    "linux_desc": "Disponible pour les distributions Linux de base Debian, Arch et Fedora.",
+    "linux_desc": "Disponible pour les distributions Linux basées sur Debian, Arch et Fedora.",
     "mac_desc": "Compatible avec Intel et M1",
     "open_on_web": "Ouvrir sur le Web",
     "web_browser": "Navigateur Web",

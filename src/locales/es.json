@@ -10,7 +10,7 @@
     "download": "Descargar Weektodo",
     "get_old_versions": "Obtener versiones anteriores en",
     "installer": "Instalador",
-    "linux_desc": "Disponible para las distribuciones de Linux base Debian, Arch y Fedora.",
+    "linux_desc": "Disponible para distribuciones de Linux basadas en Debian, Arch y Fedora.",
     "mac_desc": "Compatible con Intel y M1",
     "open_on_web": "Abrir en la web",
     "web_browser": "navegador web",
