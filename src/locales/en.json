@@ -31,6 +31,8 @@
   "sponsor": {
     "title": "Sponsor Us",
     "description": "You can sponsor Weektodo contributing to its development and growth and at the same time increasing the visibility of your company or project",
+    "sponsorship_form": "Sponsorship Form",
+    "sponsorship_form_desc": "Fill the next form to request a Weektodo sponsorship plan",
     "sponsor": "Sponsor",
     "sponsor_weektodo": "Sponsor WeekToDo",
     "sponsor_description": "Weektodo is a free and Open Source application used daily by thousands of efficient people in more than 90 countries. You can sponsor Weektodo contributing to its development and growth and at the same time increasing the visibility of your company or project. Weektodo's sponsorship includes a display of your brand, a brief description and a backlink both from the main web page and the splash screen of the app every time a user open it.",
@@ -52,8 +54,12 @@
     "support_us": "Support Us",
     "blog": "Blog"
   },
+  "blog": {
+    "title": "Weektodo Blog",
+    "desc": "Stay in tune with the latest news from Weektodo, productivity methodologies, tools and much more."
+  },
   "support_us": {
-    "description": "You can sponsor Weektodo contributing to its development and growth and at the same time increasing the visibility of your company or project",
+    "description": "If you enjoy WeekToDo the best way to ensure it remains available is to make a donation. Thank you for support Weektodo.",
     "support_weektodo": "Support Weektodo",
     "support_us_description": "Weektodo is a Free and open source project backed with donations of users like you! If you enjoy WeekToDo the best way to ensure it remains available is to make a donation. Thank you for support Weektodo.",
     "donation_methods": "Donation Methods",
@@ -68,6 +74,7 @@
     "share_in": "Share in"
   },
   "download": {
+    "description": "Download Weektodo for Free. Available for Windows, Linux and Mac OS.",
     "download": "Download Weektodo",
     "current_version": "Current Version",
     "windows_desc": "64-bit installer for Windows 7, 8, 10 and 11",
@@ -79,7 +86,7 @@
     "open_on_web": "Open on web",
     "get_old_versions": "Get older versions on"
   },
-  "footer":{
+  "footer": {
     "project": "Project",
     "connect": "Connect",
     "legal": "Legal",

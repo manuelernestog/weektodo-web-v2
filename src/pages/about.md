@@ -1,7 +1,7 @@
 ---
 layout: "../layout/PostLayout.astro"
 title: "About Weektodo"
-description: "Weektodo is posible thanks to the contribution of this awesom people"
+description: "Weektodo project is possible thanks to the contribution of this awesome people."
 ---
 
 ## Author

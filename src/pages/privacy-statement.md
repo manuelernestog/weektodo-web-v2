@@ -1,6 +1,7 @@
 ---
 layout: "../layout/PostLayout.astro"
 title: "Privacy Statement"
+description: "We value your privacy by giving you complete control over your data."
 ---
 
 
