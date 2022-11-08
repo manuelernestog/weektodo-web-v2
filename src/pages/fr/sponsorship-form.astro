@@ -1,11 +1,11 @@
 ---
-import { changeLanguage } from "i18next";
+import { changeLanguage, t } from "i18next";
 import BaseLayout from "../../layout/BaseLayout.astro";
 
 changeLanguage("fr");
 ---
 
-<BaseLayout>
+<BaseLayout title={t("sponsor.sponsorship_form")} description={t("sponsor.sponsorship_form_desc")}>
   <section class="text-gray-600 body-font">
     <div class="container lg:px-16 px-5 pt-16 pb-8 mx-auto">
         <div class="flex flex-col text-center w-full mb-8">
