@@ -29,6 +29,8 @@
     "become_sponsor": "Become a Sponsor"
   },
   "sponsor": {
+    "title": "Sponsor Us",
+    "description": "You can sponsor Weektodo contributing to its development and growth and at the same time increasing the visibility of your company or project",
     "sponsor": "Sponsor",
     "sponsor_weektodo": "Sponsor WeekToDo",
     "sponsor_description": "Weektodo is a free and Open Source application used daily by thousands of efficient people in more than 90 countries. You can sponsor Weektodo contributing to its development and growth and at the same time increasing the visibility of your company or project. Weektodo's sponsorship includes a display of your brand, a brief description and a backlink both from the main web page and the splash screen of the app every time a user open it.",
@@ -51,13 +53,14 @@
     "blog": "Blog"
   },
   "support_us": {
+    "description": "You can sponsor Weektodo contributing to its development and growth and at the same time increasing the visibility of your company or project",
     "support_weektodo": "Support Weektodo",
     "support_us_description": "Weektodo is a Free and open source project backed with donations of users like you! If you enjoy WeekToDo the best way to ensure it remains available is to make a donation. Thank you for support Weektodo.",
     "donation_methods": "Donation Methods",
     "cryptocurrencies": "Cryptocurrencies",
     "other_support_methods": "Other way to support the app",
     "other_methods": "Other Support Methods",
-    "sponsor_us": "Sponsor us",
+    "sponsor_us": "Sponsor Us",
     "rate_us": "Rate us",
     "translate_the_app": "Translate the app",
     "development": "Get Involved",
