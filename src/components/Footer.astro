@@ -6,16 +6,16 @@ import i18next, { t } from "i18next";
 <footer class="text-gray-600 bg-gray-50 body-font mt-8">
   <div class="container mx-auto lg:px-24 px-5 py-8 flex items-center sm:flex-row flex-col">
     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+      <div class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
         <img src="/logo.svg" class="w-10 h-10 p-2" alt="weektodo logo" />
         <span class="ml-2 text-xl">Weektodo</span>
-      </a>
+      </div>
       <p class="mt-2 text-sm text-gray-500">{t("footer.desc")}</p>
     </div>
     <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Weektodo</h2>
-        <nav class="list-none mb-10">
+        <ul class="list-none mb-10">
           <li>
             <a class="text-gray-600 hover:text-gray-800" href="/about">{t("footer.about")}</a>
           </li>
@@ -28,11 +28,11 @@ import i18next, { t } from "i18next";
           <li>
             <a class="text-gray-600 hover:text-gray-800" href="/blog/1">{t("ui.blog")}</a>
           </li>
-        </nav>
+        </ul>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">{t("footer.project")}</h2>
-        <nav class="list-none mb-10">
+        <ul class="list-none mb-10">
           <li>
             <a class="text-gray-600 hover:text-gray-800" href={localizePath("/support-us")}>{t("ui.support_us")}</a>
           </li>
@@ -47,11 +47,11 @@ import i18next, { t } from "i18next";
               >{t("footer.roadmap")}</a
             >
           </li>
-        </nav>
+        </ul>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">{t("footer.connect")}</h2>
-        <nav class="list-none mb-10">
+        <ul class="list-none mb-10">
           <li>
             <a class="text-gray-600 hover:text-gray-800" href="mailto:contact@weektodo.me">{t("footer.contact_us")}</a>
           </li>
@@ -65,18 +65,18 @@ import i18next, { t } from "i18next";
               >{t("support_us.development")}</a
             >
           </li>
-        </nav>
+        </ul>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">{t("footer.legal")}</h2>
-        <nav class="list-none mb-10">
+        <ul class="list-none mb-10">
           <li>
             <a class="text-gray-600 hover:text-gray-800" href="/license">{t("footer.license")}</a>
           </li>
           <li>
             <a class="text-gray-600 hover:text-gray-800" href="/privacy-statement">{t("footer.privacy_statement")}</a>
           </li>
-        </nav>
+        </ul>
       </div>
     </div>
   </div>
@@ -92,8 +92,6 @@ import i18next, { t } from "i18next";
         >
       </p>
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-        <a class="text-gray-500"> </a>
-
         <a class="text-gray-500" href="https://twitter.com/weektodo" aria-label="Twitter">
           <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"
             ><path

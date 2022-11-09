@@ -1,10 +1,16 @@
+---
+import { localizePath } from "astro-i18next";
+import i18next, { t } from "i18next";
+---
+
 <div class="drawer-side">
   <label for="my-drawer-3" class="drawer-overlay"></label> 
   <ul class="menu p-4 overflow-y-auto w-80 bg-base-100">
-    <!-- Sidebar content here -->
-    <li><a>Sidebar Item 1</a></li>
-    <li><a>Sidebar Item 2</a></li>
-    
+    <li><a class="active:bg-sky-700" href={localizePath("/download")}>{t("ui.download")}</a></li>
+    <li><a class="active:bg-sky-700" href="https://app.weektodo.me">{t("ui.get_started")}</a></li>
+    <li><a class="active:bg-sky-700" href="/blog/1">{t("ui.blog")}</a></li>
+    <li><a class="active:bg-sky-700" href={localizePath("/support-us")}>{t("ui.support_us")}</a></li>
+    <li><a class="active:bg-sky-700" href={localizePath("/sponsor-us")}>{t("support_us.sponsor_us")}</a></li>
   </ul>
   
 </div>
