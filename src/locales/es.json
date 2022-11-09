@@ -1,4 +1,8 @@
 {
+  "404": {
+    "description": "La página que buscas no existe.",
+    "title": "Página no encontrada"
+  },
   "blog": {
     "desc": "Mantente al tanto de las últimas novedades de Weektodo, metodologías de productividad, herramientas y mucho más.",
     "title": "Blog de Weektodo"

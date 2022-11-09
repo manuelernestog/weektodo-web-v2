@@ -102,5 +102,9 @@
     "privacy_statement": "Privacy Statement",
     "desc": "Free and Open Source Minimalist Weekly Planner and To Do list App",
     "made_with_love": "Made with 💚 by"
+  },
+  "404":{
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist."
   }
 }

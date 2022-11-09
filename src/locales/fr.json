@@ -1,4 +1,8 @@
 {
+  "404": {
+    "description": "La page que vous recherchez n'existe pas.",
+    "title": "Page non trouvée"
+  },
   "home": {
     "efectivennes": "Efficacité",
     "become_sponsor": "Devenir parrain",
