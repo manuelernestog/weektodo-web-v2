@@ -6,8 +6,8 @@ import SideBar from "../components/SideBar.astro";
 
 import i18next from "i18next";
 import { HeadHrefLangs } from "astro-i18next/components";
-
-const { image, title, description } = Astro.props;
+import { Schema } from "astro-seo-schema";
+const { image, title, description, is_root = false } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -15,7 +15,41 @@ const { image, title, description } = Astro.props;
   <head>
     <BaseHead title={title} description={description} image={image} />
     <HeadHrefLangs />
-    <!-- <link rel="alternate" hreflang="de" href="https://example.com/de/products" /> -->
+
+    <Schema
+      item={{
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        applicationCategory: "Productivity",
+        name: title,
+        description: description,
+        applicationCategory: "UtilitiesApplication, BusinessApplication",
+        applicationSubCategory: "Productivity",
+        fileSize: "80MB",
+        screenshot: "https://weektodo.me/assets/images/screenshot-from-2021-04-01-00-19-42-1-1206x580.png",
+        author: "Manuel Ernesto Garcia",
+        license: "GNU GPL",
+        thumbnailUrl: "https://weektodo.me/assets/images/WeekToDo-logo-512x512.png",
+        version: "1.4.0",
+        image: "https://weektodo.me/assets/images/WeekToDo-logo-512x512.png",
+        url: "https://weektodo.me",
+        offers: {
+          "@type": "Offer",
+          price: "0",
+          author: {
+            "@type": "Person",
+            givenName: "Manuel Ernesto",
+            familyName: "Garcia",
+          },
+        },
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: "4.7",
+          ratingCount: "18",
+          author: "Softpedia",
+        },
+      }}
+    />
   </head>
   <body>
     <div class="drawer">
