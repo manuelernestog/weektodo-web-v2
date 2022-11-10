@@ -11,8 +11,8 @@
       "plan": "bronze",
       "probability": "1",
       "url": "https://t.me/hallwayAD",
-      "img": "https://support.weektodo.me/data/img/hallwayAD/hallwayAD_squared.png",
-      "webImg": "https://support.weektodo.me/data/img/hallwayAD/hallwayAD_wide.png"
+      "img": "/sponsors/hallwayAD/squared.webp",
+      "webImg": "/sponsors/hallwayAD/wide.webp"
     },
     {
       "name": "R. Baldokin",
@@ -25,11 +25,11 @@
       "plan": "bronze",
       "probability": "1",
       "url": "https://t.me/KATAPVLTA",
-      "img": "https://support.weektodo.me/data/img/baldokin/squared.webp",
-      "webImg": "https://support.weektodo.me/data/img/baldokin/wide.webp"
+      "img": "/sponsors/baldokin/squared.webp",
+      "webImg": "/sponsors/baldokin/wide.webp"
     },
     {
-      "name": "MÉTODO C.A.R.",
+      "name": "Academia Efectivida",
       "message": " El método definitivo para organizar tu vida de forma sencilla y sin estrés.",
       "start_at": "18/3/2022",
       "end_at": "1/2/2022",
@@ -38,9 +38,9 @@
       "months": "12",
       "plan": "bronze",
       "probability": "1",
-      "url": "https://www.efectivida.es/car/",
-      "img": "https://support.weektodo.me/data/img/MetodoCAR/MetodoCarSquared.png",
-      "webImg": "https://support.weektodo.me/data/img/MetodoCAR/MetodoCarWide.webp"
+      "url": "https://www.efectivida.es/",
+      "img": "/sponsors/efectivida/squared.webp",
+      "webImg": "/sponsors/efectivida/wide.webp"
     },
     {
       "name": "Productiveness",
@@ -53,8 +53,8 @@
       "plan": "bronze",
       "probability": "1",
       "url": "https://www.productiveness.net",
-      "img": "https://support.weektodo.me/data/img/MetodoCAR/MetodoCarSquared.png",
-      "webImg": "/sponsors/productiveness/productiveness-logo.png"
+      "img": "/sponsors/productiveness/squared.webp",
+      "webImg": "/sponsors/productiveness/wide.webp"
     }
   ],
   "silver": [
