@@ -1,7 +1,8 @@
 ---
 import { t } from "i18next";
 import { localizePath } from "astro-i18next";
-import sponsors from "../data/sponsors.json";
+const response = await fetch(Astro.url.origin+'/api/sponsors');
+const sponsors = await response.json();
 ---
 
 <section class="text-gray-600 body-font py-10">
