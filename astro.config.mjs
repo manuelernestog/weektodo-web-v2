@@ -21,5 +21,5 @@ export default defineConfig({
       },
     }),
   ],
-  site: "https://weektodo-web-v2.vercel.app/",
+  site: "http://localhost:3000/",
 });
