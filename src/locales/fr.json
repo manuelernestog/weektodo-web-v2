@@ -43,7 +43,12 @@
     "mac_desc": "Compatible avec Intel et M1",
     "open_on_web": "Ouvrir sur le Web",
     "web_browser": "Navigateur Web",
-    "windows_desc": "Programme d'installation 64 bits pour Windows 7, 8, 10 et 11"
+    "windows_desc": "Programme d'installation 64 bits pour Windows 7, 8, 10 et 11",
+    "no_thanks": "Non merci",
+    "pay_with_card": "Payer par carte",
+    "pay_with_crypto": "Payer avec Crypto",
+    "support_form_desc": "Weektodo est un projet gratuit et open source soutenu par des dons d'utilisateurs comme vous ! \nVous pouvez le soutenir en faisant don de ce que vous pensez être juste pour l'application.",
+    "thanks_for_download": "Merci d'avoir téléchargé Weektodo !"
   },
   "footer": {
     "about": "À propos de",
