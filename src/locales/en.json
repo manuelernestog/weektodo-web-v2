@@ -93,7 +93,10 @@
     "support_form_desc": "Weektodo is a Free and open source project backed with donations of users like you! You can support it donating what you think is fair for the app.",
     "pay_with_card": "Pay with Card",
     "pay_with_crypto": "Pay with Crypto",
-    "no_thanks": "No Thanks"
+    "no_thanks": "No Thanks",
+    "macos_warning": " WeekToDo is not signed (due to its costs) so you will need to use a workaround the first you run it.",
+    "check_it_out": "Check it out in",
+    "mac_page": "the macOS official page"
   },
   "footer": {
     "project": "Project",

@@ -23,7 +23,10 @@
     "pay_with_card": "Pagar con Tarjeta",
     "pay_with_crypto": "Pagar con Cripto",
     "support_form_desc": "¡Weektodo es un proyecto gratuito y de código abierto respaldado con donaciones de usuarios como tú! \nPuedes apoyarlo donando lo que creas que es justo para la aplicación.",
-    "thanks_for_download": "¡Gracias por descargar Weektodo!"
+    "thanks_for_download": "¡Gracias por descargar Weektodo!",
+    "check_it_out": "Compruébalo en",
+    "mac_page": "la página oficial de macOS",
+    "macos_warning": "WeekToDo no está firmado (debido a sus costos), por lo que deberá utilizar una solución alternativa la primera vez que lo ejecute."
   },
   "footer": {
     "about": "Sobre",
