@@ -26,7 +26,7 @@
     "thanks_for_download": "¡Gracias por descargar Weektodo!",
     "check_it_out": "Compruébalo en",
     "mac_page": "la página oficial de macOS",
-    "macos_warning": "WeekToDo no está firmado (debido a sus costos), por lo que deberá utilizar una solución alternativa la primera vez que lo ejecute."
+    "macos_warning": "Weektodo no está firmado (debido a sus costos), por lo que deberá utilizar una solución alternativa la primera vez que lo ejecute."
   },
   "footer": {
     "about": "Sobre",
@@ -47,13 +47,13 @@
   },
   "home": {
     "become_sponsor": "Conviértase en patrocinador",
-    "block1_desc": "WeekToDo es un planificador semanal minimalista gratuito y de código abierto. \nCon Weektodo puedes empezar a mejorar tu productividad definiendo y gestionando tu semana y tus tareas de forma fácil e intuitiva.",
+    "block1_desc": "Weektodo es un planificador semanal minimalista gratuito y de código abierto. \nCon Weektodo puedes empezar a mejorar tu productividad definiendo y gestionando tu semana y tus tareas de forma fácil e intuitiva.",
     "block1_title": "¿Qué es Weektodo?",
     "block2_desc": "Weektodo mezcla el concepto de calendario y lista de tareas en una única interfaz. \nPuedes configurar alarmas, colores, tareas recurrentes, subtareas y todo esto de forma intuitiva y fácil. \nTambién nos preocupamos por su privacidad, por lo que todos sus datos se almacenan en su dispositivo.",
     "block2_title": "¿Cómo funciona?",
-    "block3_desc": "WeekToDo es un proyecto gratuito y de código abierto disponible para todos. \nPuede disfrutarlo como una aplicación nativa en Windows, macOS y Linux o directamente desde su navegador web. \nTambién está disponible en varios idiomas.",
+    "block3_desc": "Weektodo es un proyecto gratuito y de código abierto disponible para todos. \nPuede disfrutarlo como una aplicación nativa en Windows, macOS y Linux o directamente desde su navegador web. \nTambién está disponible en varios idiomas.",
     "block3_title": "Disponible para todos",
-    "block4_desc": "Cruza tus límites y comienza a ser más productivo enfocándote en lo que es realmente importante. \nDescarga WeekToDo para tu Sistema Operativo favorito o accede directamente desde el navegador.",
+    "block4_desc": "Cruza tus límites y comienza a ser más productivo enfocándote en lo que es realmente importante. \nDescarga Weektodo para tu Sistema Operativo favorito o accede directamente desde el navegador.",
     "block4_title": "Libera tu Potencial",
     "countries": "Países",
     "direct_downloads": "Descargas Directas",
@@ -88,7 +88,7 @@
     "sponsor": "Patrocinador",
     "sponsor_description": "Weektodo es una aplicación gratuita y de código abierto utilizada diariamente por miles de personas eficientes en más de 90 países. \nPuedes patrocinar Weektodo contribuyendo a su desarrollo y crecimiento y al mismo tiempo aumentando la visibilidad de tu empresa o proyecto. \nEl patrocinio de Weektodo incluye una visualización de tu marca, una breve descripción y un backlink tanto desde la página web principal como desde la pantalla de bienvenida de la app cada vez que un usuario la abre.",
     "sponsor_instructions": "Si estás interesado en apoyar a weektodo haz clic en cualquiera de los planes y rellena el formulario de patrocinio. \nEn cuanto recibamos la información nos pondremos en contacto contigo. \nNos reservamos el derecho de aceptar o rechazar el patrocinio en función de nuestros valores y el tipo de proyecto que envíe.",
-    "sponsor_weektodo": "Patrocinador WeekToDo",
+    "sponsor_weektodo": "Patrocinador Weektodo",
     "sponsorship_form": "Formulario de patrocinio",
     "sponsorship_form_desc": "Rellena el siguiente formulario para solicitar un plan de patrocinio de Weektodo",
     "support_development": "Desarrollo de soporte",
@@ -96,7 +96,7 @@
   },
   "support_us": {
     "cryptocurrencies": "Cripto",
-    "description": "Si disfruta de WeekToDo, la mejor manera de asegurarse de que siga disponible es hacer una donación. \nGracias por el apoyo Weektodo.",
+    "description": "Si disfruta de Weektodo, la mejor manera de asegurarse de que siga disponible es hacer una donación. \nGracias por el apoyo Weektodo.",
     "development": "Involucrarse",
     "donation_methods": "Métodos de donación",
     "other_methods": "Otros métodos de soporte",
@@ -105,7 +105,7 @@
     "share_in": "Compartir en",
     "share_with_friends": "Compartir con amigos",
     "sponsor_us": "Patrocinarnos",
-    "support_us_description": "¡Weektodo es un proyecto gratuito y de código abierto respaldado con donaciones de usuarios como tú! \nSi disfruta de WeekToDo, la mejor manera de asegurarse de que siga disponible es hacer una donación. \nGracias por el apoyo Weektodo.",
+    "support_us_description": "¡Weektodo es un proyecto gratuito y de código abierto respaldado con donaciones de usuarios como tú! \nSi disfruta de Weektodo, la mejor manera de asegurarse de que siga disponible es hacer una donación. \nGracias por el apoyo Weektodo.",
     "support_weektodo": "Soporte Weektodo",
     "translate_the_app": "Traducir la aplicación"
   },

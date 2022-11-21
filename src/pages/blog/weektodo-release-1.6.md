@@ -1,12 +1,12 @@
 ---
 layout: "../../layout/PostLayout.astro"
-title: "WeekToDo 1.6 Colors, Sponsors, contributors page and community"
+title: "Weektodo 1.6 Colors, Sponsors, contributors page and community"
 description: "We are launching version 1.6 of Weektodo and for this update we have several new function..."
 pubDate: "Mar 20 2022"
 heroImage: "/img/posts/XoSYJUvuo.webp"
 ---
 
-We are launching version 1.6 of [WeekToDo](https://weektodo.me) and for this update we have several new functional features and others to boost the development of the application as well as the interaction with the community and the recognition to all those who support the development of [WeekToDo](https://weektodo.me). 
+We are launching version 1.6 of [Weektodo](https://weektodo.me) and for this update we have several new functional features and others to boost the development of the application as well as the interaction with the community and the recognition to all those who support the development of [Weektodo](https://weektodo.me). 
 
 ## Tasks with Colors:
 
@@ -26,7 +26,7 @@ We are including in the about menu all the links to the application profiles in 
 
 ![836c66d1-09e6-4530-bf73-66609d6d13c0.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1647792937097/p44cd8eUj.png)
 
-If you enjoy WeekTodo and you think it brings value to your life, I invite you to return part of that value with the contribution you consider and can, any contribution is super useful to keep WeekToDo and your name will be immortalized in the list of our great contributors ❤️ 
+If you enjoy WeekTodo and you think it brings value to your life, I invite you to return part of that value with the contribution you consider and can, any contribution is super useful to keep Weektodo and your name will be immortalized in the list of our great contributors ❤️ 
 
 ## New sponsors area 
 

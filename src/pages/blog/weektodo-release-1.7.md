@@ -1,12 +1,12 @@
 ---
 layout: "../../layout/PostLayout.astro"
-title: "WeekToDo 1.7.0 Now with Native Notifications and Reminders"
-description: "We are launching WeekToDo 1.7.0 and it is full of improvements and significant changes to improve..."
+title: "Weektodo 1.7.0 Now with Native Notifications and Reminders"
+description: "We are launching Weektodo 1.7.0 and it is full of improvements and significant changes to improve..."
 pubDate: "Apr 15 2022"
 heroImage: "/img/posts/u276NX7h8.webp"
 ---
 
-We are launching [WeekToDo](https://weektodo.me) 1.7.0 and it is full of improvements and significant changes to improve the usability of the application, as well as new features to provide more and more to the user.
+We are launching [Weektodo](https://weektodo.me) 1.7.0 and it is full of improvements and significant changes to improve the usability of the application, as well as new features to provide more and more to the user.
 
 ## Open at system startup and run in the background
 
@@ -44,6 +44,6 @@ We've also made some usability improvements to the user interface. Now you can q
 
 We migrated our blog to the [Hashnode](https://hashnode.com/) platform to provide a better user experience. Soon, we will be sharing valuable content out there, so don't miss out and subscribe to be notified every time we post.
 
-This new version of WeekToDo changes the way you interact with the application to improve the work experience and the productivity of users. We want to thank all the users of the community who have helped us test the new version of the application for macOS, without them it would not have been possible to launch this new version for mac.
+This new version of Weektodo changes the way you interact with the application to improve the work experience and the productivity of users. We want to thank all the users of the community who have helped us test the new version of the application for macOS, without them it would not have been possible to launch this new version for mac.
 
-Remember that WeekToDo is a completely free application that is sustained by the support of its users. If you are enjoying WeekToDo and believe that it adds value to your life, you can support its development and maintenance with [whatever contribution you consider](https://support.weektodo.me) or by sharing the app it with your friends.
+Remember that Weektodo is a completely free application that is sustained by the support of its users. If you are enjoying Weektodo and believe that it adds value to your life, you can support its development and maintenance with [whatever contribution you consider](https://support.weektodo.me) or by sharing the app it with your friends.
