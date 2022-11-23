@@ -51,7 +51,7 @@ import i18next, { t } from "i18next";
           </svg>
         </div>
         <div
-          class="dropdown-content bg-base-100 text-base-content rounded-t-box rounded-b-box top-px mt-16 w-56 overflow-y-auto shadow-2xl"
+          class="dropdown-content bg-base-100 text-base-content rounded-t-box rounded-b-box h-[300px] top-px mt-16 w-56 overflow-y-auto shadow-2xl"
         >
           <ul class="menu menu-compact gap-1 p-3" tabindex="0">
             <li>
@@ -88,6 +88,114 @@ import i18next, { t } from "i18next";
                 <span class="flex flex-1 justify-between">Français</span>
               </a>
             </li>
+            <li>
+              <a class="flex" href="/it"
+                ><img
+                  loading="lazy"
+                  width="20"
+                  height="20"
+                  alt="Italiano"
+                  src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1ee-1f1f9.svg"
+                />
+                <span class="flex flex-1 justify-between">Italiano</span>
+              </a>
+            </li>
+            <li>
+              <a class="flex" href="/pt"
+                ><img
+                  loading="lazy"
+                  width="20"
+                  height="20"
+                  alt="Português"
+                  src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1f5-1f1f9.svg"
+                />
+                <span class="flex flex-1 justify-between">Português</span>
+              </a>
+            </li>
+            <li>
+              <a class="flex" href="/de"
+                ><img
+                  loading="lazy"
+                  width="20"
+                  height="20"
+                  alt="Deutsch"
+                  src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1e9-1f1ea.svg"
+                />
+                <span class="flex flex-1 justify-between">Deutsch</span>
+              </a>
+            </li>
+            <li>
+              <a class="flex" href="/ko"
+                ><img
+                  loading="lazy"
+                  width="20"
+                  height="20"
+                  alt="한국어"
+                  src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1f0-1f1f7.svg"
+                />
+                <span class="flex flex-1 justify-between">한국어</span>
+              </a>
+            </li>
+            <li>
+              <a class="flex" href="/ja"
+                ><img
+                  loading="lazy"
+                  width="20"
+                  height="20"
+                  alt="日本語"
+                  src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1ef-1f1f5.svg"
+                />
+                <span class="flex flex-1 justify-between">日本語</span>
+              </a>
+            </li>
+            <li>
+              <a class="flex" href="/ru"
+                ><img
+                  loading="lazy"
+                  width="20"
+                  height="20"
+                  alt="Русский"
+                  src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1f7-1f1fa.svg"
+                />
+                <span class="flex flex-1 justify-between">Русский</span>
+              </a>
+            </li>
+            <li>
+              <a class="flex" href="/tr"
+                ><img
+                  loading="lazy"
+                  width="20"
+                  height="20"
+                  alt="Türk"
+                  src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1f9-1f1f7.svg"
+                />
+                <span class="flex flex-1 justify-between">Türk</span>
+              </a>
+            </li>
+            <li>
+              <a class="flex" href="/uk"
+                ><img
+                  loading="lazy"
+                  width="20"
+                  height="20"
+                  alt="українська"
+                  src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1fa-1f1e6.svg"
+                />
+                <span class="flex flex-1 justify-between">українська</span>
+              </a>
+            </li>
+            <li>
+              <a class="flex" href="/zh"
+                ><img
+                  loading="lazy"
+                  width="20"
+                  height="20"
+                  alt="中国人"
+                  src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1e8-1f1f3.svg"
+                />
+                <span class="flex flex-1 justify-between">中国人</span>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -115,3 +223,26 @@ import i18next, { t } from "i18next";
     </div>
   </div>
 </div>
+
+<style>
+  /* width */
+  .dropdown-content::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  .dropdown-content::-webkit-scrollbar-track {
+    background: unset;
+  }
+
+  /* Handle */
+  .dropdown-content::-webkit-scrollbar-thumb {
+    background: rgb(216, 216, 216);
+    border-radius: 5px;
+  }
+
+  /* Handle on hover */
+  .dropdown-content::-webkit-scrollbar-thumb:hover {
+    background: rgb(168, 168, 168);
+  }
+</style>
