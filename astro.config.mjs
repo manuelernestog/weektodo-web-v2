@@ -30,5 +30,5 @@ export default defineConfig({
       },
     }),
   ],
-  site: "http://weektodo.me/",
+  site: "https://weektodo.me/",
 });
