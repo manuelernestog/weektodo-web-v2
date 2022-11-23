@@ -1,7 +1,7 @@
 ---
 layout: "../layout/PostLayout.astro"
 title: "GNU GENERAL PUBLIC LICENSE"
-description: "Weektodo License. The GNU General Public License is a free, copyleft license for
+description: "WeekToDo License. The GNU General Public License is a free, copyleft license for
 software and other kinds of works."
 ---
 

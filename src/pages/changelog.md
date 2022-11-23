@@ -1,7 +1,7 @@
 ---
 layout: "../layout/PostLayout.astro"
-title: "Weektodo Changelog"
-description: "See all new changes for this Weektodo version and for old versions."
+title: "WeekToDo Changelog"
+description: "See all new changes for this WeekToDo version and for old versions."
 ---
 ## v1.9.0
 Jul 28, 2022

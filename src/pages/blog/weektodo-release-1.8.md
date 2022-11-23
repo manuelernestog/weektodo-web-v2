@@ -1,7 +1,7 @@
 ---
 layout: "../../layout/PostLayout.astro"
-title: "Weektodo 1.8 is here with recurring tasks and much more"
-description: "We are launching Weektodo 1.7.0 and it is full of improvements and significant changes to improve..."
+title: "WeekToDo 1.8 is here with recurring tasks and much more"
+description: "We are launching WeekToDo 1.7.0 and it is full of improvements and significant changes to improve..."
 pubDate: "Jun 27 2022"
 heroImage: "/img/posts/VGKryhMfz.webp"
 ---
@@ -36,4 +36,4 @@ Added application compilation in .pacman format for users of Arch Linux based di
 
 We also made many other changes to improve system stability. Fixed bug with task scrolling in task details view. An alert was added while the data import is in progress. Changed task list loading asynchronously.
 
-This new version of Weektodo closes a cycle with the features that we consider fundamental for the efficient management of tasks, remember you can download the app for free at https://weektodo.me. For the next version, we will be working on adding support for touch devices, as well as a series of improvements in the user experience. See you next time.
+This new version of WeekToDo closes a cycle with the features that we consider fundamental for the efficient management of tasks, remember you can download the app for free at https://weektodo.me. For the next version, we will be working on adding support for touch devices, as well as a series of improvements in the user experience. See you next time.

@@ -4,27 +4,27 @@
     "title": "Pagina non trovata"
   },
   "blog": {
-    "desc": "Rimani aggiornato sulle ultime novità di Weektodo, metodologie di produttività, strumenti e molto altro.",
-    "title": "Blog Weektodo"
+    "desc": "Rimani aggiornato sulle ultime novità di WeekToDo, metodologie di produttività, strumenti e molto altro.",
+    "title": "Blog WeekToDo"
   },
   "download": {
     "browser_desc": "Esegui l'app direttamente da un browser web",
     "check_it_out": "Dai un'occhiata",
     "current_version": "Versione attuale",
-    "description": "Scarica Weektodo gratuitamente. \nDisponibile per Windows, Linux e Mac OS.",
-    "download": "Scarica Weektodo",
+    "description": "Scarica WeekToDo gratuitamente. \nDisponibile per Windows, Linux e Mac OS.",
+    "download": "Scarica WeekToDo",
     "get_old_versions": "Scarica le versioni precedenti",
     "installer": "Installatore",
     "linux_desc": "Disponibile per distribuzioni Linux basate su Debian, Arch e Fedora.",
     "mac_desc": "Compatibile con Intel e M1",
     "mac_page": "la pagina ufficiale di macOS",
-    "macos_warning": "Weektodo non è firmato (a causa dei suoi costi), quindi dovrai utilizzare una soluzione alternativa la prima volta che lo esegui.",
+    "macos_warning": "WeekToDo non è firmato (a causa dei suoi costi), quindi dovrai utilizzare una soluzione alternativa la prima volta che lo esegui.",
     "no_thanks": "No grazie",
     "open_on_web": "Apri sul web",
     "pay_with_card": "Paga con carta",
     "pay_with_crypto": "Paga con Crypto",
-    "support_form_desc": "Weektodo è un progetto gratuito e open source sostenuto dalle donazioni di utenti come te! \nPuoi supportarlo donando ciò che ritieni giusto per l'app.",
-    "thanks_for_download": "Grazie per aver scaricato Weektodo!",
+    "support_form_desc": "WeekToDo è un progetto gratuito e open source sostenuto dalle donazioni di utenti come te! \nPuoi supportarlo donando ciò che ritieni giusto per l'app.",
+    "thanks_for_download": "Grazie per aver scaricato WeekToDo!",
     "web_browser": "programma di navigazione in rete",
     "windows_desc": "Programma di installazione a 64 bit per Windows 7, 8, 10 e 11"
   },
@@ -47,13 +47,13 @@
   },
   "home": {
     "become_sponsor": "Diventa uno Sponsor",
-    "block1_desc": "Weektodo è un pianificatore settimanale minimalista gratuito e Open Source. \nCon Weektodo puoi iniziare a migliorare la tua produttività definendo e gestendo la tua settimana e le tue attività in modo facile e intuitivo.",
-    "block1_title": "Cos'è Weektodo?",
-    "block2_desc": "Weektodo mescola il concetto di un calendario e un elenco di attività in un'unica interfaccia. \nPuoi impostare allarmi, colori, attività ricorrenti, attività secondarie e tutto questo in modo semplice e intuitivo. \nInoltre ci preoccupiamo per la tua privacy in modo che tutti i tuoi dati siano memorizzati nel tuo dispositivo.",
+    "block1_desc": "WeekToDo è un pianificatore settimanale minimalista gratuito e Open Source. \nCon WeekToDo puoi iniziare a migliorare la tua produttività definendo e gestendo la tua settimana e le tue attività in modo facile e intuitivo.",
+    "block1_title": "Cos'è WeekToDo?",
+    "block2_desc": "WeekToDo mescola il concetto di un calendario e un elenco di attività in un'unica interfaccia. \nPuoi impostare allarmi, colori, attività ricorrenti, attività secondarie e tutto questo in modo semplice e intuitivo. \nInoltre ci preoccupiamo per la tua privacy in modo che tutti i tuoi dati siano memorizzati nel tuo dispositivo.",
     "block2_title": "Come funziona?",
-    "block3_desc": "Weektodo è un progetto gratuito e Open Source disponibile per tutti. \nPuoi godertelo come un'app nativa su Windows, macOS e Linux o direttamente dal tuo browser web. \nÈ disponibile anche in più lingue.",
+    "block3_desc": "WeekToDo è un progetto gratuito e Open Source disponibile per tutti. \nPuoi godertelo come un'app nativa su Windows, macOS e Linux o direttamente dal tuo browser web. \nÈ disponibile anche in più lingue.",
     "block3_title": "Disponibile per tutti",
-    "block4_desc": "Supera i tuoi limiti e inizia a essere più produttivo concentrandoti su ciò che è veramente importante. \nScarica Weektodo per il tuo Sistema Operativo preferito o accedi direttamente dal browser.",
+    "block4_desc": "Supera i tuoi limiti e inizia a essere più produttivo concentrandoti su ciò che è veramente importante. \nScarica WeekToDo per il tuo Sistema Operativo preferito o accedi direttamente dal browser.",
     "block4_title": "Libera il tuo Potenziale",
     "countries": "Paesi",
     "direct_downloads": "Download diretti",
@@ -61,7 +61,7 @@
     "efectivennes": "Efficacia",
     "focused": "focalizzata sulla",
     "github_stars": "Github stelle",
-    "hero_subtitle": "Weektodo è un pianificatore settimanale gratuito e open source. \nSmetti di dare la priorità a ciò che è in programma e inizia a programmare le tue priorità.",
+    "hero_subtitle": "WeekToDo è un pianificatore settimanale gratuito e open source. \nSmetti di dare la priorità a ciò che è in programma e inizia a programmare le tue priorità.",
     "monthly_usage": "Utilizzo mensile",
     "our_sponsors": "I nostri sponsor",
     "privacy": "Riservatezza",
@@ -71,13 +71,13 @@
     "weekly_planner": "Agenda settimanale"
   },
   "site": {
-    "description": "Weektodo è un pianificatore settimanale minimalista gratuito e open source e un'app per elenchi di cose da fare per persone semplici ed efficaci. \nPianifica le tue attività, imposta promemoria e gestisci i progetti con l'elenco delle cose da fare e un calendario. \nDisponibile per Windows, Mac, Linux o online.",
-    "title": "Weektodo | \nPlanner settimanale minimalista gratuito e open source e app per l'elenco delle cose da fare"
+    "description": "WeekToDo è un pianificatore settimanale minimalista gratuito e open source e un'app per elenchi di cose da fare per persone semplici ed efficaci. \nPianifica le tue attività, imposta promemoria e gestisci i progetti con l'elenco delle cose da fare e un calendario. \nDisponibile per Windows, Mac, Linux o online.",
+    "title": "WeekToDo | \nPlanner settimanale minimalista gratuito e open source e app per l'elenco delle cose da fare"
   },
   "sponsor": {
     "big_reference_in_main_website": "Grande riferimento nel sito Web principale",
     "bronze": "Bronzo",
-    "description": "Puoi sponsorizzare Weektodo contribuendo al suo sviluppo e alla sua crescita e allo stesso tempo aumentando la visibilità della tua azienda o del tuo progetto",
+    "description": "Puoi sponsorizzare WeekToDo contribuendo al suo sviluppo e alla sua crescita e allo stesso tempo aumentando la visibilità della tua azienda o del tuo progetto",
     "diamond": "Diamante",
     "featured_reference_in_main_website": "Riferimento in primo piano nel sito Web principale",
     "golden": "D'oro",
@@ -86,17 +86,17 @@
     "small_reference_in_main_website": "Piccolo riferimento nel sito Web principale",
     "splash_screen_show_up_probability": "Probabilità di visualizzazione della schermata iniziale",
     "sponsor": "Sponsor",
-    "sponsor_description": "Weektodo è un'applicazione gratuita e Open Source utilizzata quotidianamente da migliaia di persone efficienti in più di 90 paesi. \nPuoi sponsorizzare Weektodo contribuendo al suo sviluppo e alla sua crescita e allo stesso tempo aumentando la visibilità della tua azienda o del tuo progetto. \nLa sponsorizzazione di Weektodo include una visualizzazione del tuo marchio, una breve descrizione e un backlink sia dalla pagina web principale che dalla schermata iniziale dell'app ogni volta che un utente la apre.",
+    "sponsor_description": "WeekToDo è un'applicazione gratuita e Open Source utilizzata quotidianamente da migliaia di persone efficienti in più di 90 paesi. \nPuoi sponsorizzare WeekToDo contribuendo al suo sviluppo e alla sua crescita e allo stesso tempo aumentando la visibilità della tua azienda o del tuo progetto. \nLa sponsorizzazione di WeekToDo include una visualizzazione del tuo marchio, una breve descrizione e un backlink sia dalla pagina web principale che dalla schermata iniziale dell'app ogni volta che un utente la apre.",
     "sponsor_instructions": "Se sei interessato a supportare weektodo, fai clic su uno dei piani e compila il modulo di sponsorizzazione. \nNon appena riceveremo le informazioni vi contatteremo. \nCi riserviamo il diritto di accettare o rifiutare la sponsorizzazione in base ai nostri valori e al tipo di progetto che stai presentando.",
-    "sponsor_weektodo": "Sponsor Weektodo",
+    "sponsor_weektodo": "Sponsor WeekToDo",
     "sponsorship_form": "Modulo di sponsorizzazione",
-    "sponsorship_form_desc": "Compila il modulo successivo per richiedere un piano di sponsorizzazione Weektodo",
+    "sponsorship_form_desc": "Compila il modulo successivo per richiedere un piano di sponsorizzazione WeekToDo",
     "support_development": "Sostenere lo sviluppo",
     "title": "Sponsorizzaci"
   },
   "support_us": {
     "cryptocurrencies": "Cripto",
-    "description": "Se ti piace Weektodo, il modo migliore per assicurarti che rimanga disponibile è fare una donazione. \nGrazie per il supporto Weektodo.",
+    "description": "Se ti piace WeekToDo, il modo migliore per assicurarti che rimanga disponibile è fare una donazione. \nGrazie per il supporto WeekToDo.",
     "development": "Mettersi in gioco",
     "donation_methods": "Metodi di donazione",
     "other_methods": "Altri metodi di supporto",
@@ -105,8 +105,8 @@
     "share_in": "Condividere",
     "share_with_friends": "Condividere con gli amici",
     "sponsor_us": "Sponsorizzaci",
-    "support_us_description": "Weektodo è un progetto gratuito e open source sostenuto dalle donazioni di utenti come te! \nSe ti piace Weektodo, il modo migliore per assicurarti che rimanga disponibile è fare una donazione. \nGrazie per il supporto Weektodo.",
-    "support_weektodo": "Sostieni Weektodo",
+    "support_us_description": "WeekToDo è un progetto gratuito e open source sostenuto dalle donazioni di utenti come te! \nSe ti piace WeekToDo, il modo migliore per assicurarti che rimanga disponibile è fare una donazione. \nGrazie per il supporto WeekToDo.",
+    "support_weektodo": "Sostieni WeekToDo",
     "translate_the_app": "Traduci l'app"
   },
   "ui": {
