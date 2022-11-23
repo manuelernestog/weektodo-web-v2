@@ -7,6 +7,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://weektodo.me/",
   integrations: [
     tailwind(),
     astroI18next(),
@@ -30,5 +31,4 @@ export default defineConfig({
       },
     }),
   ],
-  site: "https://weektodo.me/",
 });
