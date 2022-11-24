@@ -19,6 +19,14 @@ Made with [contrib.rocks](https://contrib.rocks).
 ## Translators
 
 - Paolo Barujini
+- [Krotosz6](https://github.com/Krotosz6)
+- [大眼仔旭](https://github.com/wcxu21)
+- [Mohamed Mansour](https://github.com/itsmohmans)
+- [ChenHom](https://github.com/ChenHom)
+- [gitbreaker222](https://github.com/gitbreaker222)
+- [togo13duke](https://github.com/togo13duke)
+- [Karl Beck](https://github.com/karlbeck)
+- [Mert Cobanov](https://github.com/cobanov)
 
 
 
