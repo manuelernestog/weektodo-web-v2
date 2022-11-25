@@ -3,6 +3,29 @@ layout: "../layout/PostLayout.astro"
 title: "WeekToDo Changelog"
 description: "See all new changes for this WeekToDo version and for old versions."
 ---
+## v2.0.0
+Nov 24, 2022
+
+- Adding telemetric system
+- Adding custom list columns count setting
+- Adding compact and expanded view settings
+- Calendar start in today date if old items move automatically
+- Adding new task list action
+- Fixing Bugs
+- Moving changelog, contributors, and support us views to web site
+- Creating New Website
+- Changing license to GNU GPL 3
+- Adding Weekdays to recurrent events
+- Adding Automatic Reorder Task Option
+- Adding Setting to start week Yesterday
+- Creating new Behavior Setting Menu
+- Adding time to Copy task list action
+- Improving contrast for old items/ checked tasks
+- Raplacing name WeekToDo for WeekToDo
+- improving dark theme switchers btn
+- Adding details to recurrent events frecuency
+
+
 ## v1.9.0
 Jul 28, 2022
 
