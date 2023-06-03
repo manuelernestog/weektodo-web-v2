@@ -3,6 +3,22 @@ layout: "../layout/PostLayout.astro"
 title: "WeekToDo Changelog"
 description: "See all new changes for this WeekToDo version and for old versions."
 ---
+## v2.1.0
+Jun 3, 2023
+
+- Fixing Bugs
+- Improving app performance
+- Refactoring config menu
+- Adding new colors to tasks color picker
+- Upgrading all tech stack libraries
+- Adding new repeating event option for custom weekdays selector
+- Improving splash screen
+- Adding sent subtask to bottom on clomplete setting
+- Todo Description markdown link now redirect to external link in web browser
+- Adding week start on monday setting
+- Improving Chinese and Russian languages
+- Close todoModal with Escape Key
+
 ## v2.0.0
 Nov 24, 2022
 
