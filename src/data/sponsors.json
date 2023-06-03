@@ -1,6 +1,24 @@
 {
   "bronze": [
     {
+      "name": "CuCoders",
+      "message": "La plataforma de les programadores cubanos",
+      "start_at": "3/6/2023",
+      "months": "12",
+      "url": "https://cucoders.dev/",
+      "img": "https://weektodo.me/img/sponsors/cucoders/squared.webp",
+      "webImg": "https://weektodo.me/img/sponsors/cucoders/wide.webp"
+    },
+    {
+      "name": "Easyfiller",
+      "message": "Fill your forms with a single click for free",
+      "start_at": "3/6/2023",
+      "months": "12",
+      "url": "https://chrome.google.com/webstore/detail/easyfiller-automatic-form/oaphggcbnpminjffkjgldfepehcdjndp?hl=es&authuser=0",
+      "img": "https://weektodo.me/img/sponsors/easyfiller/squared.webp",
+      "webImg": "https://weektodo.me/img/sponsors/easyfiller/wide.webp"
+    },
+    {
       "name": "hallwayAD",
       "message": "Architectural & Graphics Design Agency.",
       "start_at": "19/4/2022",
@@ -8,15 +26,6 @@
       "url": "https://t.me/hallwayAD",
       "img": "https://weektodo.me/img/sponsors/hallwayAD/squared.webp",
       "webImg": "https://weektodo.me/img/sponsors/hallwayAD/wide.webp"
-    },
-    {
-      "name": "R. Baldokin",
-      "message": "Marketer & Social Media Manager ayudando a las Marcas a ser más relevantes en el mundo en digital.",
-      "start_at": "19/6/2022",
-      "months": "12",
-      "url": "https://t.me/KATAPVLTA",
-      "img": "https://weektodo.me/img/sponsors/baldokin/squared.webp",
-      "webImg": "https://weektodo.me/img/sponsors/baldokin/wide.webp"
     },
     {
       "name": "Academia Efectivida",
@@ -32,7 +41,7 @@
       "message": "The best place to discover productivit apps",
       "start_at": "18/3/2022",
       "months": "12",
-      "url": "https://www.productiveness.net",
+      "url": "https://productiveness.softr.app/",
       "img": "https://weektodo.me/img/sponsors/productiveness/squared.webp",
       "webImg": "https://weektodo.me/img/sponsors/productiveness/wide.webp"
     }
