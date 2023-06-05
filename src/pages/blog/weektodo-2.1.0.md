@@ -3,7 +3,7 @@ layout: "../../layout/PostLayout.astro"
 title: "Introducing WeekToDo Version 2.1.0. Enhancing Your Weekly Planning Experience"
 description: "We are excited to announce the release of WeekToDo Version 2.1.0, a significant update to our minimalist open-source weekly planner."
 pubDate: "Jun 04 2023"
-heroImage: "https://github-production-user-asset-6210df.s3.amazonaws.com/53962116/243222588-1fb99fa2-fb1c-4cd6-ae51-5cf47b86d934.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230604%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230604T234932Z&X-Amz-Expires=300&X-Amz-Signature=13b850127e1f00e51386aded9df8753ea3126cba43f20b9ec51062a401477a64&X-Amz-SignedHeaders=host&actor_id=53962116&key_id=0&repo_id=558926555"
+heroImage: "https://github-production-user-asset-6210df.s3.amazonaws.com/53962116/243227715-1fe5da2b-9537-47a4-b2fb-147452b4c013.png"
 ---
 
 We are excited to announce the release of WeekToDo Version 2.1.0, a significant update to our minimalist open-source weekly planner. This version brings a host of new features and improvements designed to enhance your productivity and organization. Let's explore the notable changes in this release.
