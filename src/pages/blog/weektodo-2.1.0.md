@@ -12,13 +12,13 @@ We are excited to announce the release of WeekToDo Version 2.1.0, a significant 
 
 To provide a personalized experience, we have made several enhancements to WeekToDo's customization options. The configuration menu has been refactored for a more intuitive design, allowing you to easily tailor the planner to your preferences. Moreover, we have expanded the color choices in the tasks color picker, enabling you to categorize and prioritize your tasks with a wider range of colors.
 
-![630shots_so](https://github.com/manuelernestog/weektodo-web-v2/assets/53962116/3ea1749c-130c-483a-8c93-8befeffff8a6)
+![630shots_so](https://github-production-user-asset-6210df.s3.amazonaws.com/53962116/243228067-60293fc7-702d-461f-abef-0dae091eb065.png)
 
 ## Improved Repeating Events and Task Management
 
 With the introduction of the new repeating event option, WeekToDo Version 2.1.0 offers greater flexibility in scheduling. You can now select custom weekdays for your repeating events, allowing for more personalized planning. Additionally, based on user feedback, we have added the ability to send subtasks to the bottom when marking a task as complete, providing a clearer overview of your progress.
 
-![137shots_so](https://github.com/manuelernestog/weektodo-web-v2/assets/53962116/2e6c3693-2831-40ac-86dc-f634384cb3bf)
+![137shots_so](https://github-production-user-asset-6210df.s3.amazonaws.com/53962116/243228115-ff9bc4e4-81ce-4ba2-b4f1-b44a6ee373a5.png)
 
 ## Fixing Bugs, Improving Performance and User Experience
 
