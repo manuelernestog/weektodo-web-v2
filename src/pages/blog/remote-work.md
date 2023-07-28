@@ -13,6 +13,8 @@ Remote work has broken geographical barriers and opened a world of opportunities
 
 [Joobler](https://jooble.org/) is one of the leading job platforms that connects employers with talented candidates from all over the world. On this platform, companies can post remote job offers and find the right talent for their specific needs. If you are looking for job opportunities, Joobler is one of the highly recommended places where you can even filter your search by role, location, experience or job type and find your next job.
 
+![Screenshot from 2023-07-27 14-08-26](https://github.com/manuelernestog/weektodo-web-v2/assets/53962116/9aa500ce-576c-4218-9936-bf89f4ce39b4)
+
 **Time Management: The Key to Successful Remote Work**
 
 Once you have found a job that interests you and successfully applied for it, the next step is to maintain it. While remote work offers numerous benefits, it also presents unique challenges, with time management being one of the most critical aspects for success in this work arrangement. Working from home or any other location can lead to distractions, procrastination, or losing track of time. Therefore, effective planning and the use of management tools are essential to stay focused and productive.
@@ -21,6 +23,7 @@ Once you have found a job that interests you and successfully applied for it, th
 
 An invaluable task management tool for remote workers is [WeekToDo](https://weektodo.me/). With WeekToDo, you can easily and effectively plan and organize tasks, set goals, and track your work progress. WeekToDo stands out for its intuitive interface and the ability to visualize your weekly workload, enabling effective planning and a balanced distribution of tasks, so you don't get overwhelmed.
 
+![Screenshot from 2023-07-27 14-22-59](https://github.com/manuelernestog/weektodo-web-v2/assets/53962116/0bbaf6d1-5507-4bda-b19c-a543bb4d0f16)
 
 
 **Conclusion**
