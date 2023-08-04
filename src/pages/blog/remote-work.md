@@ -9,9 +9,9 @@ In recent years, remote work has experienced a significant boom, transforming th
 
 **Remote Work: Access to Global Opportunities**
 
-Remote work has broken geographical barriers and opened a world of opportunities for those seeking new career prospects. Previously, geographic limitations restricted job options to positions near our place of residence, but now, thanks to online platforms like [Joobler](https://jooble.org/), you can access global opportunities from the comfort of your home.
+Remote work has broken geographical barriers and opened a world of opportunities for those seeking new career prospects. Previously, geographic limitations restricted job options to positions near our place of residence, but now, thanks to online platforms like [Jooble](https://jooble.org/), you can access global opportunities from the comfort of your home.
 
-[Joobler](https://jooble.org/) is one of the leading job platforms that connects employers with talented candidates from all over the world. On this platform, companies can post remote job offers and find the right talent for their specific needs. If you are looking for job opportunities, Joobler is one of the highly recommended places where you can even filter your search by role, location, experience or job type and find your next job.
+[Jooble](https://jooble.org/) is one of the leading job platforms that connects employers with talented candidates from all over the world. On this platform, companies can post remote job offers and find the right talent for their specific needs. If you are looking for job opportunities, Jooble is one of the highly recommended places where you can even filter your search by role, location, experience or job type and find your next job.
 
 ![Screenshot from 2023-07-27 14-08-26](https://github.com/manuelernestog/weektodo-web-v2/assets/53962116/9aa500ce-576c-4218-9936-bf89f4ce39b4)
 
@@ -28,6 +28,6 @@ An invaluable task management tool for remote workers is [WeekToDo](https://week
 
 **Conclusion**
 
-Remote work has proven to be a work arrangement that offers significant advantages, but it also demands effective time management to achieve success. Platforms like Joobler have expanded access to global job opportunities, while tools like WeekToDo enhance productivity and focus to thrive in remote work.
+Remote work has proven to be a work arrangement that offers significant advantages, but it also demands effective time management to achieve success. Platforms like Jooble have expanded access to global job opportunities, while tools like WeekToDo enhance productivity and focus to thrive in remote work.
 
-If you are looking for a new professional challenge that offers the freedom to work from anywhere, do not hesitate to explore the possibilities that remote work offers through platforms like [Joobler](https://jooble.org/). Once you secure your job, make sure to adopt effective time management practices and utilize tools like [WeekToDo](https://weektodo.me/) to maximize your potential and achieve success in your professional career from the comfort of your home.
+If you are looking for a new professional challenge that offers the freedom to work from anywhere, do not hesitate to explore the possibilities that remote work offers through platforms like [Jooble](https://jooble.org/). Once you secure your job, make sure to adopt effective time management practices and utilize tools like [WeekToDo](https://weektodo.me/) to maximize your potential and achieve success in your professional career from the comfort of your home.
