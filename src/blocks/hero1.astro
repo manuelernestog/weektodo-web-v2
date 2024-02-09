@@ -5,9 +5,14 @@ import { localizePath } from "astro-i18next";
 
 <div class="bg-gray-50">
   <section class="container mx-auto lg:px-10 px-5 text-gray-600 body-font">
-    <div class="mx-auto flex pt-16 md:pt-28 pb-0 items-center justify-center flex-col">
+    <div class="mx-auto flex pt-16 md:pt-24 pb-0 items-center justify-center flex-col">
       <div class="text-center w-full">
-        <h1 class="title-font sm:text-6xl text-4xl mb-5 font-extrabold text-gray-900 px-5">
+        <div class="flex">
+          <div class="mb-10 mx-auto p-2 px-7 rounded-full shadow-2xl text-gray-500">
+            💻️ <span class="ml-2">All your data on your device</span>
+          </div>
+        </div>
+        <h1 class="title-font sm:text-6xl text-4xl mb-6 font-extrabold text-gray-900 px-5">
           {t("home.the_minimalist")}
           <span class="gradient-text">{t("home.weekly_planner")}</span>
           <br />
@@ -25,18 +30,24 @@ import { localizePath } from "astro-i18next";
         <div class="flex justify-center">
           <a
             href={localizePath("/download")}
-            class="inline-flex text-white bg-sky-700 border-0 py-2 px-6 focus:outline-none hover:bg-sky-800 rounded text-lg"
+            class="inline-flex text-white bg-sky-700 border-0 py-2 px-6 focus:outline-none hover:bg-sky-800 rounded-full text-lg"
             >{t("home.download_now")}</a
           >
           <a
             href="https://app.weektodo.me/"
-            class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"
+            class="ml-4 inline-flex text-gray-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-full text-lg"
             >{t("ui.get_started")}</a
           >
         </div>
       </div>
     </div>
-    <img width="1206" height="580" class="px-2  w-full h-autoobject-center mx-auto relative" alt="weektodo screenshot" src="/weektodo-preview.webp" />
+    <img
+      width="1206"
+      height="580"
+      class="px-2 w-full h-autoobject-center mx-auto relative"
+      alt="weektodo screenshot"
+      src="/weektodo-preview.webp"
+    />
   </section>
 </div>
 
