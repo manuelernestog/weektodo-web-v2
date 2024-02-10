@@ -7,13 +7,13 @@ import i18next, { t } from "i18next";
   <div class="container mx-auto lg:px-24 px-5 py-8 flex items-center sm:flex-row flex-col">
     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left self-start">
       <div class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <img width="128" height="128" src="/logo.svg" class="w-10 h-10 p-2" alt="weektodo logo" />
+        <img src="/weektodo-isologo-blacksvg.svg" class="h-12 -ml-3 pb-2 opacity-75" alt="weektodo logo" />
       </div>
       <p class="mt-2 text-sm text-gray-500">{t("footer.desc")}</p>
     </div>
     <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h3 class="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">WeekToDo</h3>
+        <h3 class="title-font font-medium text-gray-900 text-lg mb-3">WeekToDo</h3>
         <ul class="list-none mb-10 opacity-70">
           <li>
             <a class="text-gray-600 hover:text-gray-800" href="/about">{t("footer.about")}</a>
@@ -30,7 +30,7 @@ import i18next, { t } from "i18next";
         </ul>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h3 class="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">{t("footer.project")}</h3>
+        <h3 class="title-font font-medium text-gray-900 text-lg mb-3">{t("footer.project")}</h3>
         <ul class="list-none mb-10 opacity-70">
           <li>
             <a class="text-gray-600 hover:text-gray-800" href={localizePath("/support-us")}>{t("ui.support_us")}</a>
@@ -41,15 +41,10 @@ import i18next, { t } from "i18next";
           <li>
             <a class="text-gray-600 hover:text-gray-800" href="/changelog">{t("footer.changelog")}</a>
           </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800" href="https://github.com/users/manuelernestog/projects/2"
-              >{t("footer.roadmap")}</a
-            >
-          </li>
         </ul>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h3 class="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">{t("footer.connect")}</h3>
+        <h3 class="title-font font-medium text-gray-900 text-lg mb-3">{t("footer.connect")}</h3>
         <ul class="list-none mb-10 opacity-70">
           <li>
             <a class="text-gray-600 hover:text-gray-800" href="mailto:contact@weektodo.me">{t("footer.contact_us")}</a>
@@ -67,7 +62,7 @@ import i18next, { t } from "i18next";
         </ul>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h3 class="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">{t("footer.legal")}</h3>
+        <h3 class="title-font font-medium text-gray-900 text-lg mb-3">{t("footer.legal")}</h3>
         <ul class="list-none mb-10 opacity-70">
           <li>
             <a class="text-gray-600 hover:text-gray-800" href="/license">{t("footer.license")}</a>
