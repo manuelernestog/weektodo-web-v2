@@ -5,17 +5,25 @@ import { t } from "i18next";
 <section class="text-gray-600 body-font">
   <div class="container mx-auto lg:px-16 px-5 flex md:flex-row flex-col items-center">
     <div
-      class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center"
+      class="lg:flex-grow md:w-1/2 flex flex-col md:text-left items-center text-center"
     >
-      <h2 class="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">
-        {t("home.block2_title")}
-      </h2>
-      <p class="mb-8 leading-relaxed">
-        {t("home.block2_desc")}
-      </p>
+      <div class="max-w-lg mx-10">
+        <h2 class="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">
+          {t("home.block2_title")}
+        </h2>
+        <p class="mb-8 leading-relaxed text-gray-500">
+          {t("home.block2_desc")}
+        </p>
+      </div>
     </div>
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <img width="720" height="600" class="object-cover w-full h-auto object-center rounded" alt="weektodo feature" src="/Splash-v2-2.webp" />
+    <div class="md:w-1/2 md:px-0 mb-10 md:mb-0 px-10">
+      <img
+        width="720"
+        height="600"
+        class="object-cover w-full h-auto object-center rounded lg:max-w-lg"
+        alt="weektodo feature"
+        src="/Splash-v2-2.webp"
+      />
     </div>
   </div>
 </section>
