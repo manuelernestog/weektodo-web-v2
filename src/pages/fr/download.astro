@@ -148,30 +148,43 @@ changeLanguage("fr");
   </section>
 
   <div class="modal">
-    <div class="modal-box relative p-10 lg:w-2/4 max-w-none container mx-auto">
+    <div class="modal-box relative p-10 pb-0 lg:w-[700px] max-w-none container mx-auto">
       <label for="my-modal-3" class="btn close-modal-btn btn-sm btn-outline btn-circle absolute border-none right-5 top-4"
         >✕</label
       >
-      <h3 class="text-lg font-bold">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="1.4em"
-          height="1.4em"
-          class="inline m-auto mb-1"
-          preserveAspectRatio="xMidYMid meet"
-          viewBox="0 0 24 24"
-          ><path
-            fill="currentColor"
-            d="m12.1 18.55l-.1.1l-.11-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04 1 3.57 2.36h1.86C13.46 6 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05M16.5 3c-1.74 0-3.41.81-4.5 2.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5c0 3.77 3.4 6.86 8.55 11.53L12 21.35l1.45-1.32C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3Z"
-          ></path>
-        </svg>
-        {t("download.thanks_for_download")}
-      </h3>
-      <p class="py-4">
-        {t("download.support_form_desc")}
-      </p>
+      <div class="flex flex-wrap md:justify-between">
+        <div class="w-full">
+          <h3 class="text-xl font-bold justify-center items-center text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.4em"
+              height="1.4em"
+              class="inline m-auto mb-1"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+              ><path
+                fill="currentColor"
+                d="m12.1 18.55l-.1.1l-.11-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04 1 3.57 2.36h1.86C13.46 6 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05M16.5 3c-1.74 0-3.41.81-4.5 2.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5c0 3.77 3.4 6.86 8.55 11.53L12 21.35l1.45-1.32C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3Z"
+              ></path>
+            </svg>
+            {t("download.pwyc")}
+          </h3>
+          <p class="py-4 text-center">
+            {t("download.support_form_desc")}
+          </p>
+        </div>
 
-      <select id="amount" class="select select-bordered select-lg w-full my-3">
+        <div class="w-full pt-4">
+          <iframe
+            id="kofiframe"
+            src="https://ko-fi.com/weektodo/?hidefeed=true&widget=true&embed=true&preview=true"
+            style="border:none;width:100%;"
+            height="650"
+            title="weektodo"></iframe>
+        </div>
+      </div>
+
+      <!-- <select id="amount" class="select select-bordered select-lg w-full my-3">
         <option value="5">$5.00</option>
         <option selected value="10">$10.00</option>
         <option value="15">$15.00</option>
@@ -246,7 +259,7 @@ changeLanguage("fr");
           class="cursor-pointer close-modal-btn flex mt-6 text-white w-fit bg-gray-400 border-0 py-2 px-5 mx mx-2 focus:outline-none hover:bg-gray-500 rounded-full"
           >{t("download.no_thanks")}</a
         >
-      </div>
+      </div> -->
     </div>
   </div>
 </BaseLayout>
@@ -263,43 +276,43 @@ changeLanguage("fr");
     });
   });
 
-  var amount = document.querySelector("#amount");
+  // var amount = document.querySelector("#amount");
 
-  document.querySelector("#card-payment").addEventListener("click", () => {
-    switch (amount.value) {
-      case "5":
-        window.open("https://tppay.me/l2tkmqsd", "_blank");
-        break;
-      case "10":
-        window.open("https://tppay.me/l2tknkiy", "_blank");
-        break;
-      case "15":
-        window.open("https://tppay.me/l2tkw5vv", "_blank");
-        break;
-      case "20":
-        window.open("https://tppay.me/l2tlea38", "_blank");
-        break;
-      case "25":
-        window.open("https://tppay.me/l2tleu0m", "_blank");
-        break;
-      case "30":
-        window.open("https://tppay.me/l2tlg1s5", "_blank");
-        break;
-      case "50":
-        window.open("https://tppay.me/l2tlgpm5", "_blank");
-        break;
-      case "75":
-        window.open("https://tppay.me/l2tlh5t2", "_blank");
-        break;
-      case "100":
-        window.open("https://tppay.me/l2tlhkjb", "_blank");
-        break;
-    }
-  });
+  // document.querySelector("#card-payment").addEventListener("click", () => {
+  //   switch (amount.value) {
+  //     case "5":
+  //       window.open("https://tppay.me/l2tkmqsd", "_blank");
+  //       break;
+  //     case "10":
+  //       window.open("https://tppay.me/l2tknkiy", "_blank");
+  //       break;
+  //     case "15":
+  //       window.open("https://tppay.me/l2tkw5vv", "_blank");
+  //       break;
+  //     case "20":
+  //       window.open("https://tppay.me/l2tlea38", "_blank");
+  //       break;
+  //     case "25":
+  //       window.open("https://tppay.me/l2tleu0m", "_blank");
+  //       break;
+  //     case "30":
+  //       window.open("https://tppay.me/l2tlg1s5", "_blank");
+  //       break;
+  //     case "50":
+  //       window.open("https://tppay.me/l2tlgpm5", "_blank");
+  //       break;
+  //     case "75":
+  //       window.open("https://tppay.me/l2tlh5t2", "_blank");
+  //       break;
+  //     case "100":
+  //       window.open("https://tppay.me/l2tlhkjb", "_blank");
+  //       break;
+  //   }
+  // });
 
-  document.querySelector("#cripto-payment").addEventListener("click", () => {
-    window.open("https://qvapay.com/payme/weektodo/" + amount.value, "_blank");
-  });
+  // document.querySelector("#cripto-payment").addEventListener("click", () => {
+  //   window.open("https://qvapay.com/payme/weektodo/" + amount.value, "_blank");
+  // });
 </script>
 
 <style>
