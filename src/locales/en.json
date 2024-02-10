@@ -98,7 +98,8 @@
     "no_thanks": "No Thanks",
     "macos_warning": " WeekToDo is not signed (due to its costs) so you will need to use a workaround the first you run it.",
     "check_it_out": "Check it out in",
-    "mac_page": "the macOS official page"
+    "mac_page": "the macOS official page",
+    "pwyc": "Pay what you can"
   },
   "footer": {
     "project": "Project",
