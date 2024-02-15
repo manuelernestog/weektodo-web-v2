@@ -12,9 +12,27 @@ import sponsors from "../data/sponsors.json"
     </div>
     <div class="flex flex-wrap -m-4 justify-center">
       {
+        sponsors.diamond.map((sponsor) => (
+          <div class="p-4 lg:w-2/5 w-4/5 flex">
+            <a href={sponsor.url} target="_blank" class="flex">
+              <img
+              width="256" height="145"
+                class="flex-shrink-0 w-full h-auto self-center rounded-lg w-full object-cover object-center mb-4"
+                alt={sponsor.name}
+                title={sponsor.message}
+                src={sponsor.webImg}
+              />
+            </a>
+          </div>
+        ))
+      }
+
+    </div>
+    <div class="flex flex-wrap -m-4 justify-center">
+      {
         sponsors.bronze.map((sponsor) => (
           <div class="p-4 lg:w-1/6 w-1/3 flex">
-            <a href={sponsor.url} class="flex">
+            <a href={sponsor.url} target="_blank" class="flex">
               <img
               width="256" height="145"
                 class="flex-shrink-0 w-full h-auto self-center rounded-lg w-full object-cover object-center mb-4"

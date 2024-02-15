@@ -6,8 +6,8 @@
       "start_at": "8/1/2023",
       "months": "12",
       "url": "https://www.snapclear.app/",
-      "img": "https://weektodo.me/img/sponsors/snapclear/squared.webp",
-      "webImg": "https://weektodo.me/img/sponsors/snapclear/wide.webp"
+      "img": "/img/sponsors/snapclear/squared.webp",
+      "webImg": "/img/sponsors/snapclear/wide.webp"
     },
     {
       "name": "Easyfiller",
@@ -15,11 +15,21 @@
       "start_at": "3/6/2023",
       "months": "12",
       "url": "https://chrome.google.com/webstore/detail/easyfiller-automatic-form/oaphggcbnpminjffkjgldfepehcdjndp?hl=es&authuser=0",
-      "img": "https://weektodo.me/img/sponsors/easyfiller/squared.webp",
-      "webImg": "https://weektodo.me/img/sponsors/easyfiller/wide.webp"
+      "img": "/img/sponsors/easyfiller/squared.webp",
+      "webImg": "/img/sponsors/easyfiller/wide.webp"
     }
   ],
-  "silver": [],
+  "silver": [  ],
   "golden": [],
-  "diamond": []
+  "diamond": [
+    {
+      "name": "Password.link",
+      "message": "Securely share sensitive information with one-time links. Send and receive passwords and confidential documents.",
+      "start_at": "15/2/2024",
+      "months": "2",
+      "url": "https://password.link",
+      "img": "/img/sponsors/passwordlink/squared.webp",
+      "webImg": "/img/sponsors/passwordlink/wide.webp"
+    }
+  ]
 }
